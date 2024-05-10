@@ -22,24 +22,26 @@
         android:name="com.google.android.geo.API_KEY"
         android:value="AIzaSyAyKCbKaWCCL9fe2NGA1Q0wWpdSEXSyQaY" />
 
-    <!-- Include required permissions for Google Maps API to run. -->
+    <queries>
+        <package android:name="com.facebook.katana" />
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries> <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
 
-    <queries>
-
-        <!-- Needs to be explicitly declared on Android R+ -->
-        <package android:name="com.google.android.apps.maps" />
-    </queries>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <permission
         android:name="com.example.hospitals.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.example.hospitals.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -54,6 +56,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Hospitals" >
+        <activity
+            android:name="com.example.hospitals.LoginActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.hospitals.HomeActivity"
             android:exported="false" />
@@ -88,10 +93,43 @@
         <activity
             android:name="com.example.hospitals.MainActivity"
             android:exported="false" />
-        <!-- Needs to be explicitly declared on P+ -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="cct.com.example.hospitals"
+                    android:scheme="fbconnect" />
+            </intent-filter>
+        </activity> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
 
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -138,17 +176,42 @@
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.hospitals.com.squareup.picasso"
-            android:exported="false" />
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.hospitals.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.hospitals.androidx-startup"
@@ -163,22 +226,43 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
         <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.hospitals.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.example.hospitals.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.hospitals.com.squareup.picasso"
+            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

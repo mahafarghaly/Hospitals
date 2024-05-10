@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hospitals.app-mergeDebugResources-36:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.example.hospitals.app-mergeDebugResources-42:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\e536bee67bfa1bae114073500bdb6db9\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\de3118e4d5abbb47c7f1b9baac76df97\\transformed\\appcompat-1.6.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

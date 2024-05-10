@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hospitals.app-mergeDebugResources-36:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.hospitals.app-mergeDebugResources-42:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\b674ca9a6967024cb0f6ff594d30eb78\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\2674b2fa1a1255cd0240c80dcfaf7264\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

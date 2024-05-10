@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hospitals.app-mergeDebugResources-36:/values-be/values-be.xml",
+            "outputFile": "com.example.hospitals.app-mergeDebugResources-42:/values-be/values-be.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\b674ca9a6967024cb0f6ff594d30eb78\\transformed\\material-1.12.0\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\f58cc657b0c920e3c10cf423b2201758\\transformed\\browser-1.4.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,164,272,384",
+                        "endColumns": "108,107,111,106",
+                        "endOffsets": "159,267,379,486"
+                    },
+                    "to": {
+                        "startLines": "68,72,73,74",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6862,7209,7317,7429",
+                        "endColumns": "108,107,111,106",
+                        "endOffsets": "6966,7312,7424,7531"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\2674b2fa1a1255cd0240c80dcfaf7264\\transformed\\material-1.12.0\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,41 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\12a7325d02a91334086f02ffb1509ab7\\transformed\\play-services-base-18.0.1\\res\\values-be\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,296,454,575,681,832,954,1065,1165,1323,1426,1585,1709,1858,2013,2078,2136",
-                        "endColumns": "102,157,120,105,150,121,110,99,157,102,158,123,148,154,64,57,74",
-                        "endOffsets": "295,453,574,680,831,953,1064,1164,1322,1425,1584,1708,1857,2012,2077,2135,2210"
-                    },
-                    "to": {
-                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4630,4737,4899,5024,5134,5289,5415,5530,5780,5942,6049,6212,6340,6493,6652,6721,6783",
-                        "endColumns": "106,161,124,109,154,125,114,103,161,106,162,127,152,158,68,61,78",
-                        "endOffsets": "4732,4894,5019,5129,5284,5410,5525,5629,5937,6044,6207,6335,6488,6647,6716,6778,6857"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\9f8d8729783bce93858cca594c5e6865\\transformed\\browser-1.4.0\\res\\values-be\\values-be.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,164,272,384",
-                        "endColumns": "108,107,111,106",
-                        "endOffsets": "159,267,379,486"
-                    },
-                    "to": {
-                        "startLines": "68,72,73,74",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6862,7209,7317,7429",
-                        "endColumns": "108,107,111,106",
-                        "endOffsets": "6966,7312,7424,7531"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\648bddc41af3034221bb13da45f78786\\transformed\\core-1.13.0\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\ef321e0d87e35ce24a9a82f6aeba1861\\transformed\\core-1.13.0\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -74,7 +57,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\e536bee67bfa1bae114073500bdb6db9\\transformed\\appcompat-1.6.1\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\e10501c03c6ea55b79cb08194a27a596\\transformed\\play-services-basement-18.3.0\\res\\values-be\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "141",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "58",
+                        "startColumns": "4",
+                        "startOffsets": "5634",
+                        "endColumns": "145",
+                        "endOffsets": "5775"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\de3118e4d5abbb47c7f1b9baac76df97\\transformed\\appcompat-1.6.1\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,20 +91,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\1a841979f6811d9b3b060c604925d6f8\\transformed\\play-services-basement-18.1.0\\res\\values-be\\values.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\eb3f63f427083b368778b5ac39a954f2\\transformed\\play-services-base-18.1.0\\res\\values-be\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "141",
-                        "endOffsets": "336"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,296,454,575,681,832,954,1065,1165,1323,1426,1585,1709,1858,2013,2078,2136",
+                        "endColumns": "102,157,120,105,150,121,110,99,157,102,158,123,148,154,64,57,74",
+                        "endOffsets": "295,453,574,680,831,953,1064,1164,1322,1425,1584,1708,1857,2012,2077,2135,2210"
                     },
                     "to": {
-                        "startLines": "58",
-                        "startColumns": "4",
-                        "startOffsets": "5634",
-                        "endColumns": "145",
-                        "endOffsets": "5775"
+                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4630,4737,4899,5024,5134,5289,5415,5530,5780,5942,6049,6212,6340,6493,6652,6721,6783",
+                        "endColumns": "106,161,124,109,154,125,114,103,161,106,162,127,152,158,68,61,78",
+                        "endOffsets": "4732,4894,5019,5129,5284,5410,5525,5629,5937,6044,6207,6335,6488,6647,6716,6778,6857"
                     }
                 }
             ]

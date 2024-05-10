@@ -57,6 +57,8 @@ id bottom_app_bar
 id bottom_nav_view
 id btnCall
 id btnLocation
+id btn_fb
+id btn_gmail
 id btn_retry
 id cardView
 id card_four
@@ -91,6 +93,7 @@ id linear_logout
 id linear_privacy_policy
 id linear_rate_app
 id lottie
+id main
 id map
 id profile_item
 id recyclerView
@@ -103,6 +106,7 @@ id tv_admin_panel_hidden
 id tv_email_view
 id tv_phone_view
 layout activity_home
+layout activity_login
 layout activity_main
 layout activity_maps
 layout activity_splash_screen
@@ -141,8 +145,13 @@ string el_maadi_branch
 string el_mohandseen_branch
 string english
 string ferrari_2023
+string gcm_defaultSenderId
 string go
 string goodyear_tires
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string home
 string internet_msg
 string lamborghini_boss_2023
@@ -161,6 +170,7 @@ string pillow_bags_for_cars
 string pirelli_tires
 string privacy_policy
 string profile
+string project_id
 string rang_rover_2023
 string rate_app
 string red_car_cover
