@@ -2,10 +2,14 @@ package com.example.hospitals.fragments;
 
 import static android.content.Context.MODE_PRIVATE;
 
+import static com.example.hospitals.LoginActivity.SHARED_PREF;
+
 import android.Manifest;
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
@@ -35,6 +39,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hospitals.LoginActivity;
 import com.example.hospitals.R;
 import com.example.hospitals.adminpanel.AddProductActivity;
 import com.example.hospitals.adminpanel.DeleteProductActivity;
@@ -67,6 +72,7 @@ public class ProfileFragment extends Fragment {
     private ImageView imageViewPerson;
     private TextView tvEmail, tvPhone, tvAdminPanel;
     private CardView loading, admin;
+
 
     // For Image
     private Uri imageUri = null;
@@ -117,6 +123,39 @@ public class ProfileFragment extends Fragment {
             */
 
 
+        });
+
+        linearLogOut = view.findViewById(R.id.linear_logout);
+        linearLogOut.setOnClickListener(v -> {
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setTitle(R.string.app_name)
+                    .setIcon(R.mipmap.ic_launcher_round)
+                    .setMessage("Do You Want To Log Out?")
+                    .setPositiveButton(R.string.btn_yes, (dialog, which) -> {
+                        // Sign out from Firebase
+                        firebaseAuth.signOut();
+
+                        // Clear the 'login' shared preferences
+                        getActivity().getSharedPreferences("login", Context.MODE_PRIVATE)
+                                .edit()
+                                .clear()
+                                .apply();
+
+                        // Clear 'name' shared preference
+                        SharedPreferences sharedPreferences = getActivity().getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        editor.putString("name", "");
+                        editor.apply();
+
+                        // Start LoginActivity and finish current activity
+                        Intent intentLogOut = new Intent(getActivity(), LoginActivity.class);
+                        intentLogOut.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intentLogOut);
+                        getActivity().finish();
+                    })
+                    .setNegativeButton(R.string.btn_no, (dialog, which) -> dialog.cancel());
+
+            builder.show();
         });
 
         btnSwitch = view.findViewById(R.id.switch_mode);
@@ -453,5 +492,7 @@ public class ProfileFragment extends Fragment {
         alertDialog.show();
 
     }
+
+
 
 }

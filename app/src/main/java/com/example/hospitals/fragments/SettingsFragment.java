@@ -62,12 +62,12 @@ public class SettingsFragment extends Fragment {
 
         });
 
-        linearLocation = view.findViewById(R.id.linear_location);
-        linearLocation.setOnClickListener(v -> {
-
-            showAlertLocation();
-
-        });
+//        linearLocation = view.findViewById(R.id.linear_location);
+//        linearLocation.setOnClickListener(v -> {
+//
+//            showAlertLocation();
+//
+//        });
 
         return view;
     }
