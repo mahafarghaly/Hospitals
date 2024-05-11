@@ -1,0 +1,6 @@
+com.example.hospitals.test.app-annotation-experimental-1.4.0-0 C:\Users\minae\.gradle\caches\transforms-3\87b6b9dd258c6f65f3cc187ccea4d543\transformed\annotation-experimental-1.4.0\res
+com.example.hospitals.test.app-core-1.5.0-1 C:\Users\minae\.gradle\caches\transforms-3\e7cb0012d9f2697ffb123641f8c3e08b\transformed\core-1.5.0\res
+com.example.hospitals.test.app-androidTest-2 D:\zzzzz\NewHospital\Hospitals\app\build\generated\res\resValues\androidTest\debug
+com.example.hospitals.test.app-mergeDebugAndroidTestResources-3 D:\zzzzz\NewHospital\Hospitals\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.hospitals.test.app-mergeDebugAndroidTestResources-4 D:\zzzzz\NewHospital\Hospitals\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.hospitals.test.app-merged_res-5 D:\zzzzz\NewHospital\Hospitals\app\build\intermediates\merged_res\debugAndroidTest
