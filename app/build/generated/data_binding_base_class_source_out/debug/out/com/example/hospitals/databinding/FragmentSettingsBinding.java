@@ -25,9 +25,12 @@ public final class FragmentSettingsBinding implements ViewBinding {
   public final CardView cardFour;
 
   @NonNull
+<<<<<<< HEAD
   public final CardView cardFourFive;
 
   @NonNull
+=======
+>>>>>>> dev
   public final CardView cardOne;
 
   @NonNull
@@ -52,15 +55,19 @@ public final class FragmentSettingsBinding implements ViewBinding {
   public final LinearLayout linearLanguage;
 
   @NonNull
+<<<<<<< HEAD
   public final LinearLayout linearLocation;
 
   @NonNull
+=======
+>>>>>>> dev
   public final LinearLayout linearPrivacyPolicy;
 
   @NonNull
   public final LinearLayout linearRateApp;
 
   private FragmentSettingsBinding(@NonNull FrameLayout rootView, @NonNull CardView cardFour,
+<<<<<<< HEAD
       @NonNull CardView cardFourFive, @NonNull CardView cardOne, @NonNull CardView cardThree,
       @NonNull Guideline guideline10, @NonNull Guideline guideline11,
       @NonNull Guideline guideline12, @NonNull Guideline guideline13,
@@ -70,6 +77,15 @@ public final class FragmentSettingsBinding implements ViewBinding {
     this.rootView = rootView;
     this.cardFour = cardFour;
     this.cardFourFive = cardFourFive;
+=======
+      @NonNull CardView cardOne, @NonNull CardView cardThree, @NonNull Guideline guideline10,
+      @NonNull Guideline guideline11, @NonNull Guideline guideline12,
+      @NonNull Guideline guideline13, @NonNull Guideline guideline14,
+      @NonNull LinearLayout linearLanguage, @NonNull LinearLayout linearPrivacyPolicy,
+      @NonNull LinearLayout linearRateApp) {
+    this.rootView = rootView;
+    this.cardFour = cardFour;
+>>>>>>> dev
     this.cardOne = cardOne;
     this.cardThree = cardThree;
     this.guideline10 = guideline10;
@@ -78,7 +94,10 @@ public final class FragmentSettingsBinding implements ViewBinding {
     this.guideline13 = guideline13;
     this.guideline14 = guideline14;
     this.linearLanguage = linearLanguage;
+<<<<<<< HEAD
     this.linearLocation = linearLocation;
+=======
+>>>>>>> dev
     this.linearPrivacyPolicy = linearPrivacyPolicy;
     this.linearRateApp = linearRateApp;
   }
@@ -116,12 +135,15 @@ public final class FragmentSettingsBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.card_four_five;
       CardView cardFourFive = ViewBindings.findChildViewById(rootView, id);
       if (cardFourFive == null) {
         break missingId;
       }
 
+=======
+>>>>>>> dev
       id = R.id.card_one;
       CardView cardOne = ViewBindings.findChildViewById(rootView, id);
       if (cardOne == null) {
@@ -170,12 +192,15 @@ public final class FragmentSettingsBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.linear_location;
       LinearLayout linearLocation = ViewBindings.findChildViewById(rootView, id);
       if (linearLocation == null) {
         break missingId;
       }
 
+=======
+>>>>>>> dev
       id = R.id.linear_privacy_policy;
       LinearLayout linearPrivacyPolicy = ViewBindings.findChildViewById(rootView, id);
       if (linearPrivacyPolicy == null) {
@@ -188,9 +213,15 @@ public final class FragmentSettingsBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       return new FragmentSettingsBinding((FrameLayout) rootView, cardFour, cardFourFive, cardOne,
           cardThree, guideline10, guideline11, guideline12, guideline13, guideline14,
           linearLanguage, linearLocation, linearPrivacyPolicy, linearRateApp);
+=======
+      return new FragmentSettingsBinding((FrameLayout) rootView, cardFour, cardOne, cardThree,
+          guideline10, guideline11, guideline12, guideline13, guideline14, linearLanguage,
+          linearPrivacyPolicy, linearRateApp);
+>>>>>>> dev
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

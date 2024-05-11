@@ -17,6 +17,13 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+<<<<<<< HEAD
+=======
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+>>>>>>> dev
 
     <meta-data
         android:name="com.google.android.geo.API_KEY"
@@ -26,8 +33,12 @@
         <package android:name="com.facebook.katana" />
         <!-- Needs to be explicitly declared on Android R+ -->
         <package android:name="com.google.android.apps.maps" />
+<<<<<<< HEAD
     </queries> <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+=======
+    </queries>
+>>>>>>> dev
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -57,12 +68,34 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hospitals" >
         <activity
+<<<<<<< HEAD
             android:name="com.example.hospitals.LoginActivity"
+=======
+            android:name="com.example.hospitals.adminpanel.UpdateProductActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hospitals.adminpanel.DeleteProductActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hospitals.adminpanel.AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hospitals.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hospitals.PrivacyPolicyActivity"
+>>>>>>> dev
             android:exported="false" />
         <activity
             android:name="com.example.hospitals.HomeActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
+=======
+            android:name="com.example.hospitals.LoginActivity"
+            android:exported="false" />
+        <activity
+>>>>>>> dev
             android:name="com.example.hospitals.SplashScreen"
             android:exported="true" >
             <intent-filter>

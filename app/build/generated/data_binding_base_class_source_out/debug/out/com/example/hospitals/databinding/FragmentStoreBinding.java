@@ -4,6 +4,7 @@ package com.example.hospitals.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,13 +12,64 @@ import androidx.viewbinding.ViewBinding;
 import com.example.hospitals.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+=======
+import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.Guideline;
+import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
+import com.example.hospitals.R;
+import java.lang.NullPointerException;
+import java.lang.Override;
+import java.lang.String;
+>>>>>>> dev
 
 public final class FragmentStoreBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
+<<<<<<< HEAD
   private FragmentStoreBinding(@NonNull FrameLayout rootView) {
     this.rootView = rootView;
+=======
+  @NonNull
+  public final Button btnChat;
+
+  @NonNull
+  public final Guideline guideline;
+
+  @NonNull
+  public final Guideline guideline161;
+
+  @NonNull
+  public final Guideline guideline17th;
+
+  @NonNull
+  public final Guideline guidelineone;
+
+  @NonNull
+  public final ImageView ivCall;
+
+  @NonNull
+  public final TextView tvChat;
+
+  private FragmentStoreBinding(@NonNull FrameLayout rootView, @NonNull Button btnChat,
+      @NonNull Guideline guideline, @NonNull Guideline guideline161,
+      @NonNull Guideline guideline17th, @NonNull Guideline guidelineone, @NonNull ImageView ivCall,
+      @NonNull TextView tvChat) {
+    this.rootView = rootView;
+    this.btnChat = btnChat;
+    this.guideline = guideline;
+    this.guideline161 = guideline161;
+    this.guideline17th = guideline17th;
+    this.guidelineone = guidelineone;
+    this.ivCall = ivCall;
+    this.tvChat = tvChat;
+>>>>>>> dev
   }
 
   @Override
@@ -43,10 +95,64 @@ public final class FragmentStoreBinding implements ViewBinding {
 
   @NonNull
   public static FragmentStoreBinding bind(@NonNull View rootView) {
+<<<<<<< HEAD
     if (rootView == null) {
       throw new NullPointerException("rootView");
     }
 
     return new FragmentStoreBinding((FrameLayout) rootView);
+=======
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_chat;
+      Button btnChat = ViewBindings.findChildViewById(rootView, id);
+      if (btnChat == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline;
+      Guideline guideline = ViewBindings.findChildViewById(rootView, id);
+      if (guideline == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline161;
+      Guideline guideline161 = ViewBindings.findChildViewById(rootView, id);
+      if (guideline161 == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline17th;
+      Guideline guideline17th = ViewBindings.findChildViewById(rootView, id);
+      if (guideline17th == null) {
+        break missingId;
+      }
+
+      id = R.id.guidelineone;
+      Guideline guidelineone = ViewBindings.findChildViewById(rootView, id);
+      if (guidelineone == null) {
+        break missingId;
+      }
+
+      id = R.id.iv_call;
+      ImageView ivCall = ViewBindings.findChildViewById(rootView, id);
+      if (ivCall == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_chat;
+      TextView tvChat = ViewBindings.findChildViewById(rootView, id);
+      if (tvChat == null) {
+        break missingId;
+      }
+
+      return new FragmentStoreBinding((FrameLayout) rootView, btnChat, guideline, guideline161,
+          guideline17th, guidelineone, ivCall, tvChat);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+>>>>>>> dev
   }
 }

@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 
@@ -34,6 +35,9 @@ public class HomeActivity extends AppCompatActivity {
         if (!checkInternet()) {
             alertNoInternet();
         }
+        new Handler().postDelayed(() -> {
+            binding.bottomNavView.setSelectedItemId(R.id.home_item);
+        }, 100);
         binding.bottomNavView.setOnItemSelectedListener(item -> {
             if (item.getItemId() == R.id.home_item) {
                 replaceFragment(new HomeFragment());

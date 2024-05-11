@@ -35,11 +35,23 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+<<<<<<< HEAD
+=======
+    <string name="arabic">العربيه</string>
+>>>>>>> dev
     <string name="bottomsheet_action_collapse">تصغير البطاقة السفلية</string>
     <string name="bottomsheet_action_expand">توسيع البطاقة السفلية</string>
     <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
     <string name="bottomsheet_drag_handle_clicked">تم النقر مرّتين على مقبض السحب.</string>
     <string name="bottomsheet_drag_handle_content_description">مقبض السحب</string>
+<<<<<<< HEAD
+=======
+    <string name="branches_location">موافع الفروع</string>
+    <string name="btn_no">لا</string>
+    <string name="btn_yes">نعم</string>
+    <string name="buy">شراء</string>
+    <string name="call_center">خدمة العملاء</string>
+>>>>>>> dev
     <string msgid="881409763997275156" name="call_notification_answer_action">"ردّ"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"فيديو"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"رفض"</string>
@@ -47,6 +59,14 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"مكالمة واردة"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"مكالمة جارية"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"يتم فحص المكالمة الواردة"</string>
+<<<<<<< HEAD
+=======
+    <string name="car_mirrors">مرايه سيارة</string>
+    <string name="car_seat_mats">فرش مقاعد سيارة</string>
+    <string name="car_tracking_device">جهاز تتبع السيارة</string>
+    <string name="change_language">تغيير اللغه</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+>>>>>>> dev
     <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
     <string name="clear_text_end_icon_content_description">محو النص</string>
@@ -91,15 +111,38 @@
     <string name="common_open_on_phone">فتح على الهاتف</string>
     <string name="common_signin_button_text">تسجل الدخول</string>
     <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+<<<<<<< HEAD
     <string msgid="3260749812566568062" name="copy_toast_msg">"تم نسخ الرابط إلى الحافظة."</string>
+=======
+    <string name="contact">التواصل</string>
+    <string name="contact_customer_service">خدمة العملاء</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"تم نسخ الرابط إلى الحافظة."</string>
+    <string name="details">التفاصيل</string>
+    <string name="el_maadi_branch">فرع المعادي</string>
+    <string name="el_mohandseen_branch">فرع المهندسين</string>
+    <string name="english">الانجليزية</string>
+>>>>>>> dev
     <string name="error_a11y_label">خطأ: غير صالح</string>
     <string name="error_icon_content_description">خطأ</string>
     <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"نسخ الرابط"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"فتح في المتصفح"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"مشاركة الرابط"</string>
+<<<<<<< HEAD
     <string name="icon_content_description">رمز مربع الحوار</string>
     <string name="item_view_role_description">علامة تبويب</string>
+=======
+    <string name="go">اذهب</string>
+    <string name="goodyear_tires">اطارات جوود يير</string>
+    <string name="home">الرئيسيه</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="internet_msg">لا يوجد اتصال بالانترنت من فضلك حاول مرة اخري</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="leave_msg">هل حقا تريد الخروج؟</string>
+    <string name="led_bulbs">لمبات الليد</string>
+    <string name="log">تسجيل الدخول</string>
+    <string name="logout">تسجيل الخروج</string>
+>>>>>>> dev
     <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
     <string name="material_hour_24h_suffix">%1$s ساعة</string>
     <string name="material_hour_selection">تحديد الساعة</string>
@@ -158,10 +201,37 @@
     <string name="mtrl_picker_toggle_to_year_selection">يمكنك النقر للتبديل إلى عرض السنة.</string>
     <string name="mtrl_timepicker_cancel">إلغاء</string>
     <string name="mtrl_timepicker_confirm">حسنًا</string>
+<<<<<<< HEAD
     <string name="password_toggle_content_description">عرض كلمة المرور</string>
     <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
     <string name="searchview_clear_text_content_description">محو النص</string>
     <string name="searchview_navigation_content_description">رجوع</string>
     <string name="side_sheet_accessibility_pane_title">ورقة جانبية</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+=======
+    <string name="nasr_city_branch">فرع مدينة نصر</string>
+    <string name="new_user">مستخدم جديد؟ انشاء حساب</string>
+    <string name="night_mode">الوضع المظلم</string>
+    <string name="open">فتح</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="pillow_bags_for_cars">اكياس وسادات للسيارة</string>
+    <string name="pirelli_tires">اطارات بيريللي</string>
+    <string name="profile">الحساب</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="red_car_cover">غطاء سيارة احمر</string>
+    <string name="save">حفظ</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="searchview_clear_text_content_description">محو النص</string>
+    <string name="searchview_navigation_content_description">رجوع</string>
+    <string name="select_branch">اختار الفرع</string>
+    <string name="select_language">اختيار اللغه</string>
+    <string name="settings">الاعدادات</string>
+    <string name="side_sheet_accessibility_pane_title">ورقة جانبية</string>
+    <string name="sign">انشاء حساب</string>
+    <string name="smart_android_screen">شاشه اندرويد زكيه</string>
+    <string name="snow_steering_cover">غطاء دركسيون ثلجي</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="store">متجر</string>
+    <string name="try_again">حاول مجددا</string>
+>>>>>>> dev
 </resources>
