@@ -11,6 +11,7 @@ drawable btn_bg
 drawable car
 drawable chat_bg
 drawable four
+drawable hosp
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_admin_panel_settings_24
 drawable ic_baseline_arrow_back_24
@@ -55,6 +56,7 @@ drawable transperant_bg
 drawable two
 drawable ui
 drawable uit
+id Login
 id bottom_app_bar
 id bottom_nav_view
 id btnCall
@@ -62,20 +64,19 @@ id btnLocation
 id btn_add_product
 id btn_add_product_admin_panel
 id btn_add_product_admin_panel_update
-id btn_call
 id btn_chat
 id btn_delete_admin_panel
 id btn_delete_product
 id btn_fb
 id btn_gmail
 id btn_open_location
+id btn_purchase_alert
 id btn_retry
 id btn_save_language
 id btn_save_password
 id btn_update_product
 id cardView
 id card_four
-id card_four_five
 id card_one
 id card_three
 id card_two
@@ -132,7 +133,6 @@ id linear_admin_panel
 id linear_call_center
 id linear_change_password
 id linear_language
-id linear_location
 id linear_logout
 id linear_privacy_policy
 id linear_progress_admin_panel
@@ -186,6 +186,7 @@ layout activity_privacy_policy
 layout activity_splash_screen
 layout activity_update_product
 layout alert_admin
+layout alert_buy
 layout alert_language
 layout alert_location
 layout alert_no_internet

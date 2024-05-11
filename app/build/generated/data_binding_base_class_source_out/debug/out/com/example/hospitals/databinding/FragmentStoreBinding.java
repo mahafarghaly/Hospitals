@@ -4,12 +4,12 @@ package com.example.hospitals.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -23,10 +23,7 @@ public final class FragmentStoreBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final AppCompatButton btnCall;
-
-  @NonNull
-  public final AppCompatButton btnChat;
+  public final Button btnChat;
 
   @NonNull
   public final Guideline guideline;
@@ -46,12 +43,11 @@ public final class FragmentStoreBinding implements ViewBinding {
   @NonNull
   public final TextView tvChat;
 
-  private FragmentStoreBinding(@NonNull FrameLayout rootView, @NonNull AppCompatButton btnCall,
-      @NonNull AppCompatButton btnChat, @NonNull Guideline guideline,
-      @NonNull Guideline guideline161, @NonNull Guideline guideline17th,
-      @NonNull Guideline guidelineone, @NonNull ImageView ivCall, @NonNull TextView tvChat) {
+  private FragmentStoreBinding(@NonNull FrameLayout rootView, @NonNull Button btnChat,
+      @NonNull Guideline guideline, @NonNull Guideline guideline161,
+      @NonNull Guideline guideline17th, @NonNull Guideline guidelineone, @NonNull ImageView ivCall,
+      @NonNull TextView tvChat) {
     this.rootView = rootView;
-    this.btnCall = btnCall;
     this.btnChat = btnChat;
     this.guideline = guideline;
     this.guideline161 = guideline161;
@@ -88,14 +84,8 @@ public final class FragmentStoreBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_call;
-      AppCompatButton btnCall = ViewBindings.findChildViewById(rootView, id);
-      if (btnCall == null) {
-        break missingId;
-      }
-
       id = R.id.btn_chat;
-      AppCompatButton btnChat = ViewBindings.findChildViewById(rootView, id);
+      Button btnChat = ViewBindings.findChildViewById(rootView, id);
       if (btnChat == null) {
         break missingId;
       }
@@ -136,8 +126,8 @@ public final class FragmentStoreBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentStoreBinding((FrameLayout) rootView, btnCall, btnChat, guideline,
-          guideline161, guideline17th, guidelineone, ivCall, tvChat);
+      return new FragmentStoreBinding((FrameLayout) rootView, btnChat, guideline, guideline161,
+          guideline17th, guidelineone, ivCall, tvChat);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

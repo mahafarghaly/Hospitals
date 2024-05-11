@@ -31,12 +31,12 @@ public class StoreFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_store, container, false);
 
         // btn Chat Customer Service
-        btnCall = view.findViewById(R.id.btn_call);
-        btnCall.setOnClickListener(v -> {
-
-            onDialButton();
-
-        });
+//        btnCall = view.findViewById(R.id.btn_call);
+//        btnCall.setOnClickListener(v -> {
+//
+//            onDialButton();
+//
+//        });
         // btn Chat Customer Service
         btnChat = view.findViewById(R.id.btn_chat);
         btnChat.setOnClickListener(v -> {

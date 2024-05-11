@@ -3175,6 +3175,7 @@ drawable design_snackbar_background
 drawable four
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable hosp
 drawable ic_arrow_back_black_24
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_admin_panel_settings_24
@@ -3327,6 +3328,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Login
 id META
 id NO_DEBUG
 id SHIFT
@@ -3437,13 +3439,13 @@ id btnLocation
 id btn_add_product
 id btn_add_product_admin_panel
 id btn_add_product_admin_panel_update
-id btn_call
 id btn_chat
 id btn_delete_admin_panel
 id btn_delete_product
 id btn_fb
 id btn_gmail
 id btn_open_location
+id btn_purchase_alert
 id btn_retry
 id btn_save_language
 id btn_save_password
@@ -3456,7 +3458,6 @@ id cancel_action
 id cancel_button
 id cardView
 id card_four
-id card_four_five
 id card_one
 id card_three
 id card_two
@@ -3670,7 +3671,6 @@ id linear_admin_panel
 id linear_call_center
 id linear_change_password
 id linear_language
-id linear_location
 id linear_logout
 id linear_privacy_policy
 id linear_progress_admin_panel
@@ -4116,6 +4116,7 @@ layout activity_privacy_policy
 layout activity_splash_screen
 layout activity_update_product
 layout alert_admin
+layout alert_buy
 layout alert_language
 layout alert_location
 layout alert_no_internet
