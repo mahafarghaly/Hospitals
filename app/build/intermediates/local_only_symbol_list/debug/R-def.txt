@@ -202,6 +202,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw animation
+raw baby
 string app_name
 string arabic
 string audi_q8_2023

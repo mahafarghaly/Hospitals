@@ -24,6 +24,10 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\alert_buy.xml"
     },
     {
+        "merged": "com.example.hospitals.app-mergeDebugResources-43:/layout/activity_splash_screen.xml",
+        "source": "com.example.hospitals.app-main-46:/layout/activity_splash_screen.xml"
+    },
+    {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_splash_screen.xml",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_splash_screen.xml"
     },
@@ -42,10 +46,6 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\fragment_profile.xml",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\fragment_profile.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-mergeDebugResources-43:/layout/activity_login.xml",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_update_product.xml",
