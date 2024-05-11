@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-#Sat May 11 00:01:58 EEST 2024
-base.0=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.3=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.4=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-path.0=classes.dex
-path.1=0/classes.dex
-path.2=13/classes.dex
-path.3=7/classes.dex
-path.4=classes2.dex
-path.5=classes3.dex
-=======
-#Sat May 11 04:21:51 EEST 2024
+#Sat May 11 05:37:50 EEST 2024
 base.0=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
@@ -28,14 +13,10 @@ path.3=14/classes.dex
 path.4=7/classes.dex
 path.5=classes2.dex
 path.6=classes3.dex
->>>>>>> dev
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
 renamed.3=classes4.dex
 renamed.4=classes5.dex
 renamed.5=classes6.dex
-<<<<<<< HEAD
-=======
 renamed.6=classes7.dex
->>>>>>> dev

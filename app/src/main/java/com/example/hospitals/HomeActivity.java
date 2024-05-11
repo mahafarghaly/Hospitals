@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.annotation.SuppressLint;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -69,6 +71,23 @@ public class HomeActivity extends AppCompatActivity {
         return connectivityManager.getActiveNetworkInfo() != null && connectivityManager.getActiveNetworkInfo().isConnected();
 
     }
+
+    @SuppressLint("MissingSuperCall")
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.app_name);
+        builder.setIcon(R.mipmap.ic_launcher_round);
+        builder.setMessage(R.string.leave_msg)
+                .setPositiveButton(R.string.btn_yes,
+                        (dialog, which) -> finish())
+                .setNegativeButton(R.string.btn_no,
+                        (dialog, which) -> dialog.cancel());
+
+        builder.show();
+    }
+
+
 
     private void alertNoInternet() {
 

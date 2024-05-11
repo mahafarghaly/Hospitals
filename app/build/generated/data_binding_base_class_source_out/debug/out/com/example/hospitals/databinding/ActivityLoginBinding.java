@@ -5,10 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-<<<<<<< HEAD
-=======
 import android.widget.TextView;
->>>>>>> dev
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,12 +21,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-<<<<<<< HEAD
-=======
   public final TextView Login;
 
   @NonNull
->>>>>>> dev
   public final Button btnFb;
 
   @NonNull
@@ -38,16 +32,10 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout main;
 
-<<<<<<< HEAD
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnFb,
-      @NonNull Button btnGmail, @NonNull ConstraintLayout main) {
-    this.rootView = rootView;
-=======
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Login,
       @NonNull Button btnFb, @NonNull Button btnGmail, @NonNull ConstraintLayout main) {
     this.rootView = rootView;
     this.Login = Login;
->>>>>>> dev
     this.btnFb = btnFb;
     this.btnGmail = btnGmail;
     this.main = main;
@@ -80,15 +68,12 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-<<<<<<< HEAD
-=======
       id = R.id.Login;
       TextView Login = ViewBindings.findChildViewById(rootView, id);
       if (Login == null) {
         break missingId;
       }
 
->>>>>>> dev
       id = R.id.btn_fb;
       Button btnFb = ViewBindings.findChildViewById(rootView, id);
       if (btnFb == null) {
@@ -103,11 +88,7 @@ public final class ActivityLoginBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-<<<<<<< HEAD
-      return new ActivityLoginBinding((ConstraintLayout) rootView, btnFb, btnGmail, main);
-=======
       return new ActivityLoginBinding((ConstraintLayout) rootView, Login, btnFb, btnGmail, main);
->>>>>>> dev
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -5,12 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".LoginActivity">
-
-=======
     android:background="@drawable/hosp"
     tools:context=".LoginActivity">
+
 
 
     <View
@@ -19,7 +16,6 @@
         android:background="#A1FFFFFF"
         />
 
->>>>>>> dev
     <Button
         android:id="@+id/btn_fb"
         android:layout_width="300dp"
@@ -31,11 +27,11 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintVertical_bias="0.429" />
-=======
-        app:layout_constraintVertical_bias="0.515" />
->>>>>>> dev
+        app:layout_constraintVertical_bias="0.515" /><![CDATA[
+
+    app:layout_constraintVertical_bias="0.13" />
+
+    ]]>
 
     <Button
         android:id="@+id/btn_gmail"
@@ -48,10 +44,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_fb"
-<<<<<<< HEAD
-        app:layout_constraintVertical_bias="0.201" />
-=======
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.116" />
 
     <TextView
         android:id="@+id/Login"

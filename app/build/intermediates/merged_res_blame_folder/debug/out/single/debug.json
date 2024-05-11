@@ -1,325 +1,5 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_no_internet.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_no_internet.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img10.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img10.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ui.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ui.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_two.jpg.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/two.jpg"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_fragment_store.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/fragment_store.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_camera_alt_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_camera_alt_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img5.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img5.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_person_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_person_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_btn_bg.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/btn_bg.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_wifi_off_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_wifi_off_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_arrow_back_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_location_on_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_location_on_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_attachment_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_attachment_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_home.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_home.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_chat_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_chat_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img2.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img2.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_dark_mode_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_dark_mode_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img9.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img9.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_transperant_bg.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/transperant_bg.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img1.jpg.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img1.jpg"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_three.jpg.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/three.jpg"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_one.jpg.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/one.jpg"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img6.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img6.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_fragment_profile.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/fragment_profile.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_place_holder.jpg.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/place_holder.jpg"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_more_vert_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_more_vert_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_language_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_language_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_fragment_home.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/fragment_home.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_phone_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_phone_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img3.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img3.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_fragment_settings.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/fragment_settings.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xxhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_chat_bg.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/chat_bg.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_account_circle_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_account_circle_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/xml_backup_rules.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_uit.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/uit.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_local_police_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_local_police_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-mdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-hdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img7.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img7.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_lock_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_lock_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_car.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/car.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/menu/bottom_nav_menu.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_send_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_send_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_home_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_home_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img4.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img4.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_main.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_four.jpg.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/four.jpg"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_phone_in_talk_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_phone_in_talk_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_profile.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/profile.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_logout_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_logout_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_login.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/raw_animation.json.flat",
-        "source": "com.example.hospitals.app-main-46:/raw/animation.json"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_maps.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_maps.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_local_grocery_store_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_local_grocery_store_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_admin_panel_settings_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_admin_panel_settings_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_settings_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_settings_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.hospitals.app-main-46:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_item_hospital.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/item_hospital.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_star_rate_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_star_rate_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_img8.png.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/img8.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/drawable_ic_baseline_photo_camera_24.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/drawable/ic_baseline_photo_camera_24.xml"
-=======
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\fragment_home.xml"
     },
@@ -354,10 +34,6 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_admin.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_admin.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_activity_splash_screen.xml.flat",
@@ -472,10 +148,6 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\ic_baseline_more_vert_24.xml"
     },
     {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_buy.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_buy.xml"
-    },
-    {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img10.png.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\img10.png"
     },
@@ -498,10 +170,6 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img6.png.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\img6.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_location.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_location.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_alert_language.xml.flat",
@@ -558,10 +226,6 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_ic_baseline_local_grocery_store_24.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\ic_baseline_local_grocery_store_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_update_password.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_update_password.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_alert_update_password.xml.flat",
@@ -628,6 +292,10 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_delete_product.xml"
     },
     {
+        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_login.xml.flat",
+        "source": "com.example.hospitals.app-main-46:/layout/activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img.png.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\img.png"
     },
@@ -646,6 +314,10 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_btn_bg.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_alert_buy.xml.flat",
+        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\alert_buy.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_ic_baseline_location_on_24.xml.flat",
@@ -698,6 +370,5 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\ic_launcher_foreground.xml"
->>>>>>> dev
     }
 ]

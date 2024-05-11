@@ -2,17 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="colorPrimary">#03A9F4</color>
-<<<<<<< HEAD
-    <color name="ic_launcher_background">#03A9F4</color>
-    <color name="primary_two">#C0C0C0</color>
-    <color name="white">#FFFFFFFF</color>
-=======
     <color name="green">#0E8701</color>
     <color name="ic_launcher_background">#03A9F4</color>
     <color name="primary_two">#C0C0C0</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#DAC503</color>
->>>>>>> dev
     <string name="app_name">Hospitals</string>
     <string name="arabic">Arabic</string>
     <string name="audi_q8_2023" translatable="false">Audi Q8 2023</string>

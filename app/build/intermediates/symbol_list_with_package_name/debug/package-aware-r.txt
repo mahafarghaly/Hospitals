@@ -1522,10 +1522,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
-<<<<<<< HEAD
-=======
 color green
->>>>>>> dev
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -2210,10 +2207,7 @@ color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
 color white
-<<<<<<< HEAD
-=======
 color yellow
->>>>>>> dev
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3181,10 +3175,7 @@ drawable design_snackbar_background
 drawable four
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-<<<<<<< HEAD
-=======
 drawable hosp
->>>>>>> dev
 drawable ic_arrow_back_black_24
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_admin_panel_settings_24
@@ -3337,10 +3328,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-<<<<<<< HEAD
-=======
 id Login
->>>>>>> dev
 id META
 id NO_DEBUG
 id SHIFT
@@ -3448,11 +3436,6 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnCall
 id btnLocation
-<<<<<<< HEAD
-id btn_fb
-id btn_gmail
-id btn_retry
-=======
 id btn_add_product
 id btn_add_product_admin_panel
 id btn_add_product_admin_panel_update
@@ -3467,7 +3450,6 @@ id btn_retry
 id btn_save_language
 id btn_save_password
 id btn_update_product
->>>>>>> dev
 id button
 id buttonPanel
 id cache_measures
@@ -3476,10 +3458,6 @@ id cancel_action
 id cancel_button
 id cardView
 id card_four
-<<<<<<< HEAD
-id card_four_five
-=======
->>>>>>> dev
 id card_one
 id card_three
 id card_two
@@ -3514,10 +3492,7 @@ id com_facebook_tooltip_bubble_view_bottom_pointer
 id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
 id compress
-<<<<<<< HEAD
-=======
 id con_update
->>>>>>> dev
 id confirm_button
 id confirmation_code
 id constraint
@@ -3569,8 +3544,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-<<<<<<< HEAD
-=======
 id ed_description_product
 id ed_description_product_update
 id ed_id_delete
@@ -3582,7 +3555,6 @@ id ed_name_product
 id ed_name_product_update
 id ed_price_product
 id ed_price_product_update
->>>>>>> dev
 id edge
 id edit_query
 id edit_text_id
@@ -3594,13 +3566,10 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id escape
-<<<<<<< HEAD
-=======
 id et_chat
 id et_current_password
 id et_new_password
 id et_re_new_password
->>>>>>> dev
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3630,22 +3599,16 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
-<<<<<<< HEAD
-=======
 id guideline
->>>>>>> dev
 id guideline10
 id guideline11
 id guideline12
 id guideline13
 id guideline14
-<<<<<<< HEAD
-=======
 id guideline15
 id guideline16
 id guideline161
 id guideline17th
->>>>>>> dev
 id guideline2
 id guideline3
 id guideline4
@@ -3654,10 +3617,7 @@ id guideline6
 id guideline7
 id guideline8
 id guideline9
-<<<<<<< HEAD
-=======
 id guidelineone
->>>>>>> dev
 id hardware
 id header_title
 id hide_ime_id
@@ -3678,10 +3638,7 @@ id image
 id imageHospital
 id image_card
 id immediateStop
-<<<<<<< HEAD
-=======
 id include_loading
->>>>>>> dev
 id included
 id indeterminate
 id info
@@ -3690,9 +3647,6 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
-<<<<<<< HEAD
-id iv_change_picture
-=======
 id iv_back_chat
 id iv_call
 id iv_call_chat
@@ -3700,7 +3654,6 @@ id iv_camera
 id iv_change_picture
 id iv_gallery
 id iv_more
->>>>>>> dev
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3713,15 +3666,6 @@ id light
 id line1
 id line3
 id linear
-<<<<<<< HEAD
-id linear_admin_panel
-id linear_change_password
-id linear_language
-id linear_location
-id linear_logout
-id linear_privacy_policy
-id linear_rate_app
-=======
 id linearLayout
 id linear_admin_panel
 id linear_call_center
@@ -3733,7 +3677,6 @@ id linear_progress_admin_panel
 id linear_progress_admin_panel_update
 id linear_rate_app
 id linear_send_chat
->>>>>>> dev
 id listMode
 id list_item
 id lottie
@@ -3858,23 +3801,17 @@ id pin
 id position
 id postLayout
 id pressed
-<<<<<<< HEAD
-=======
 id profile_image
->>>>>>> dev
 id profile_item
 id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
-<<<<<<< HEAD
-=======
 id radio_arab
 id radio_elmaadi
 id radio_english
 id radio_madent_naser
 id radio_mohandseen
->>>>>>> dev
 id ratio
 id rectangles
 id recyclerView
@@ -4008,11 +3945,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-<<<<<<< HEAD
-id tv_admin_panel_hidden
-id tv_email_view
-id tv_phone_view
-=======
 id tv_admin
 id tv_admin_panel_hidden
 id tv_chat
@@ -4033,7 +3965,6 @@ id tv_name_product_update
 id tv_phone_view
 id tv_price_product
 id tv_price_product_update
->>>>>>> dev
 id unchecked
 id uniform
 id unknown
@@ -4174,20 +4105,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-<<<<<<< HEAD
-=======
 layout activity_add_product
 layout activity_chat
 layout activity_delete_product
->>>>>>> dev
 layout activity_home
 layout activity_login
 layout activity_main
 layout activity_maps
-<<<<<<< HEAD
-layout activity_splash_screen
-layout alert_no_internet
-=======
 layout activity_privacy_policy
 layout activity_splash_screen
 layout activity_update_product
@@ -4198,7 +4122,6 @@ layout alert_location
 layout alert_no_internet
 layout alert_picture
 layout alert_update_password
->>>>>>> dev
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout com_facebook_activity_layout

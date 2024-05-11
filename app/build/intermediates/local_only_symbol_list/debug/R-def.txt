@@ -2,25 +2,16 @@ R_DEF: Internal format may change without notice
 local
 color black
 color colorPrimary
-<<<<<<< HEAD
-color ic_launcher_background
-color primary_two
-color white
-=======
 color green
 color ic_launcher_background
 color primary_two
 color white
 color yellow
->>>>>>> dev
 drawable btn_bg
 drawable car
 drawable chat_bg
 drawable four
-<<<<<<< HEAD
-=======
 drawable hosp
->>>>>>> dev
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_admin_panel_settings_24
 drawable ic_baseline_arrow_back_24
@@ -65,22 +56,11 @@ drawable transperant_bg
 drawable two
 drawable ui
 drawable uit
-<<<<<<< HEAD
-=======
 id Login
->>>>>>> dev
 id bottom_app_bar
 id bottom_nav_view
 id btnCall
 id btnLocation
-<<<<<<< HEAD
-id btn_fb
-id btn_gmail
-id btn_retry
-id cardView
-id card_four
-id card_four_five
-=======
 id btn_add_product
 id btn_add_product_admin_panel
 id btn_add_product_admin_panel_update
@@ -97,14 +77,10 @@ id btn_save_password
 id btn_update_product
 id cardView
 id card_four
->>>>>>> dev
 id card_one
 id card_three
 id card_two
 id card_view_admin_panel
-<<<<<<< HEAD
-id frame_layout
-=======
 id con_update
 id ed_description_product
 id ed_description_product_update
@@ -123,19 +99,15 @@ id et_new_password
 id et_re_new_password
 id frame_layout
 id guideline
->>>>>>> dev
 id guideline10
 id guideline11
 id guideline12
 id guideline13
 id guideline14
-<<<<<<< HEAD
-=======
 id guideline15
 id guideline16
 id guideline161
 id guideline17th
->>>>>>> dev
 id guideline2
 id guideline3
 id guideline4
@@ -144,23 +116,6 @@ id guideline6
 id guideline7
 id guideline8
 id guideline9
-<<<<<<< HEAD
-id home_item
-id imageHospital
-id image_card
-id iv_change_picture
-id linear_admin_panel
-id linear_change_password
-id linear_language
-id linear_location
-id linear_logout
-id linear_privacy_policy
-id linear_rate_app
-id lottie
-id main
-id map
-id profile_item
-=======
 id guidelineone
 id home_item
 id imageHospital
@@ -194,18 +149,12 @@ id radio_elmaadi
 id radio_english
 id radio_madent_naser
 id radio_mohandseen
->>>>>>> dev
 id recyclerView
 id settings_item
 id store_item
 id switch_mode
 id textDescription
 id textName
-<<<<<<< HEAD
-id tv_admin_panel_hidden
-id tv_email_view
-id tv_phone_view
-=======
 id tv_admin
 id tv_admin_panel_hidden
 id tv_chat
@@ -229,15 +178,10 @@ id tv_price_product_update
 layout activity_add_product
 layout activity_chat
 layout activity_delete_product
->>>>>>> dev
 layout activity_home
 layout activity_login
 layout activity_main
 layout activity_maps
-<<<<<<< HEAD
-layout activity_splash_screen
-layout alert_no_internet
-=======
 layout activity_privacy_policy
 layout activity_splash_screen
 layout activity_update_product
@@ -248,7 +192,6 @@ layout alert_location
 layout alert_no_internet
 layout alert_picture
 layout alert_update_password
->>>>>>> dev
 layout fragment_home
 layout fragment_profile
 layout fragment_settings

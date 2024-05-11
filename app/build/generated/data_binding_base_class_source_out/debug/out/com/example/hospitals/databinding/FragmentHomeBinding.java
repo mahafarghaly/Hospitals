@@ -4,22 +4,6 @@ package com.example.hospitals.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-<<<<<<< HEAD
-import android.widget.FrameLayout;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.viewbinding.ViewBinding;
-import com.example.hospitals.R;
-import java.lang.NullPointerException;
-import java.lang.Override;
-
-public final class FragmentHomeBinding implements ViewBinding {
-  @NonNull
-  private final FrameLayout rootView;
-
-  private FragmentHomeBinding(@NonNull FrameLayout rootView) {
-    this.rootView = rootView;
-=======
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -42,16 +26,11 @@ public final class FragmentHomeBinding implements ViewBinding {
       @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
     this.recyclerView = recyclerView;
->>>>>>> dev
   }
 
   @Override
   @NonNull
-<<<<<<< HEAD
-  public FrameLayout getRoot() {
-=======
   public ConstraintLayout getRoot() {
->>>>>>> dev
     return rootView;
   }
 
@@ -72,13 +51,6 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-<<<<<<< HEAD
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
-
-    return new FragmentHomeBinding((FrameLayout) rootView);
-=======
     // The body of this method is generated in a way you would not otherwise write.
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
@@ -93,6 +65,5 @@ public final class FragmentHomeBinding implements ViewBinding {
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
->>>>>>> dev
   }
 }
