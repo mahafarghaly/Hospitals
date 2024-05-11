@@ -68,6 +68,10 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_home.xml.flat",
+        "source": "com.example.hospitals.app-main-46:/layout/activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img7.png.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\img7.png"
     },
@@ -290,10 +294,6 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_activity_delete_product.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_delete_product.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_login.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img.png.flat",
