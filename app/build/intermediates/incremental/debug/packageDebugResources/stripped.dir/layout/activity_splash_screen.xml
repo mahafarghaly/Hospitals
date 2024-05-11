@@ -18,6 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
+<<<<<<< HEAD
         app:lottie_rawRes="@raw/baby" />
+=======
+        app:lottie_rawRes="@raw/animation" />
+>>>>>>> dev
 
 </androidx.constraintlayout.widget.ConstraintLayout>

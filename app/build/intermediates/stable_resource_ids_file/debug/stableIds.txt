@@ -1647,7 +1647,10 @@ com.example.hospitals:id/ratio = 0x7f0801e9
 com.example.hospitals:style/ThemeOverlay.Material3.DynamicColors.Dark = 0x7f1202af
 com.example.hospitals:id/SHOW_PATH = 0x7f08000a
 com.example.hospitals:id/search_bar = 0x7f080202
+<<<<<<< HEAD
 com.example.hospitals:raw/baby = 0x7f100002
+=======
+>>>>>>> dev
 com.example.hospitals:id/radio_madent_naser = 0x7f0801e7
 com.example.hospitals:id/radio_elmaadi = 0x7f0801e5
 com.example.hospitals:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f120434
