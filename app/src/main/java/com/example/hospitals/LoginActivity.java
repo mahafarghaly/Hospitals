@@ -71,8 +71,6 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
                         // App code
-                        startActivity(new Intent(LoginActivity.this, HomeActivity.class));
-                        finish();
                     }
 
                     @Override
@@ -152,10 +150,20 @@ public class LoginActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
             AccessToken accessToken = AccessToken.getCurrentAccessToken();
             if (accessToken != null && !accessToken.isExpired()) {
-                AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());                mAuth.signInWithCredential(credential)
-                        .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {                            @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {                                if (task.isSuccessful()) {
-                            FirebaseUser user = mAuth.getCurrentUser();                                    Toast.makeText(LoginActivity.this, "Added.",
+                AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
+                mAuth.signInWithCredential(credential)
+                        .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                            @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            String userEmail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+                            SharedPreferences sharedPreferences = LoginActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);                                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString("name", userEmail);                                        editor.putBoolean("isLogin",true);
+                            editor.apply();
+                            startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+                            finish();
+                            Toast.makeText(LoginActivity.this, "Facebook sign in successful.",
                                     Toast.LENGTH_SHORT).show();
                         } else {
                             Toast.makeText(LoginActivity.this, "Authentication failed.",
