@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log">تسجيل الدخول</string>
+    <string name="sign">انشاء حساب</string>
+    <string name="new_user">مستخدم جديد؟ انشاء حساب</string>
+    <string name="home">الرئيسيه</string>
+    <string name="profile">الحساب</string>
+    <string name="store">متجر</string>
+    <string name="settings">الاعدادات</string>
+    <string name="leave_msg">هل حقا تريد الخروج؟</string>
+    <string name="btn_yes">نعم</string>
+    <string name="btn_no">لا</string>
+    <string name="night_mode">الوضع المظلم</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="buy">شراء</string>
+    <string name="details">التفاصيل</string>
+    <string name="snow_steering_cover">غطاء دركسيون ثلجي</string>
+    <string name="pillow_bags_for_cars">اكياس وسادات للسيارة</string>
+    <string name="pirelli_tires">اطارات بيريللي</string>
+    <string name="goodyear_tires">اطارات جوود يير</string>
+    <string name="led_bulbs">لمبات الليد</string>
+    <string name="red_car_cover">غطاء سيارة احمر</string>
+    <string name="car_mirrors">مرايه سيارة</string>
+    <string name="car_seat_mats">فرش مقاعد سيارة</string>
+    <string name="car_tracking_device">جهاز تتبع السيارة</string>
+    <string name="smart_android_screen">شاشه اندرويد زكيه</string>
+    <string name="go">اذهب</string>
+    <string name="change_language">تغيير اللغه</string>
+    <string name="contact_customer_service">خدمة العملاء</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="select_language">اختيار اللغه</string>
+    <string name="arabic">العربيه</string>
+    <string name="english">الانجليزية</string>
+    <string name="save">حفظ</string>
+    <string name="internet_msg">لا يوجد اتصال بالانترنت من فضلك حاول مرة اخري</string>
+    <string name="try_again">حاول مجددا</string>
+    <string name="call_center">خدمة العملاء</string>
+    <string name="branches_location">موافع الفروع</string>
+    <string name="select_branch">اختار الفرع</string>
+    <string name="el_maadi_branch">فرع المعادي</string>
+    <string name="el_mohandseen_branch">فرع المهندسين</string>
+    <string name="nasr_city_branch">فرع مدينة نصر</string>
+    <string name="open">فتح</string>
+    <string name="contact">التواصل</string>
+
+</resources>
