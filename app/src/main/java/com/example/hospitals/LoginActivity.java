@@ -54,12 +54,14 @@ public class LoginActivity extends AppCompatActivity {
 
     FirebaseAuth mAuth;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         btnFb = findViewById(R.id.btn_fb);
         btnGoogle = findViewById(R.id.btn_gmail);
+
     }
 
     protected void onStart() {
@@ -102,7 +104,7 @@ public class LoginActivity extends AppCompatActivity {
                                             SharedPreferences sharedPreferences = LoginActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
                                             SharedPreferences.Editor editor = sharedPreferences.edit();
 //                                            userName=extractUserName(userEmail);
-                                            editor.putString("name", userName);
+                                            editor.putString("name", userEmail);
                                             editor.putBoolean("isLogin",true);
                                             editor.apply();
                                             Log.i(TAG, "gmail: "+userName);

@@ -9,6 +9,7 @@
     tools:context=".LoginActivity">
 
 
+
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,12 +22,25 @@
         android:layout_height="70dp"
         android:text="FaceBook"
         android:textSize="30sp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.515" /><![CDATA[
+
+    app:layout_constraintVertical_bias="0.13" />
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <Button
         android:id="@+id/btn_gmail"
@@ -39,7 +53,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_fb"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/Login"
@@ -54,5 +68,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.77" />
+>>>>>>> dev
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -36,10 +36,6 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_admin.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_admin.xml"
-    },
-    {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_activity_splash_screen.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_splash_screen.xml"
     },
@@ -152,10 +148,6 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\ic_baseline_more_vert_24.xml"
     },
     {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_buy.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_buy.xml"
-    },
-    {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img10.png.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\img10.png"
     },
@@ -178,10 +170,6 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img6.png.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\img6.png"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_location.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_location.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_alert_language.xml.flat",
@@ -238,10 +226,6 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_ic_baseline_local_grocery_store_24.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\ic_baseline_local_grocery_store_24.xml"
-    },
-    {
-        "merged": "com.example.hospitals.app-merged_res-44:/layout_alert_update_password.xml.flat",
-        "source": "com.example.hospitals.app-main-46:/layout/alert_update_password.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_alert_update_password.xml.flat",
@@ -308,6 +292,10 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_delete_product.xml"
     },
     {
+        "merged": "com.example.hospitals.app-merged_res-44:/layout_activity_login.xml.flat",
+        "source": "com.example.hospitals.app-main-46:/layout/activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_img.png.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\img.png"
     },
@@ -326,6 +314,10 @@
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_btn_bg.xml.flat",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\layout_alert_buy.xml.flat",
+        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\alert_buy.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-merged_res-44:\\drawable_ic_baseline_location_on_24.xml.flat",

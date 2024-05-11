@@ -60,9 +60,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hospitals" >
         <activity
-            android:name="com.example.hospitals.adminpanel.UpdateProductActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.hospitals.adminpanel.DeleteProductActivity"
             android:exported="false" />
         <activity
