@@ -1,6 +1,7 @@
 package com.example.hospitals;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -22,7 +23,8 @@ import java.util.ArrayList;
 public class HospitalAdapter extends RecyclerView.Adapter<HospitalAdapter.HospitalViewHolder> {
     private ArrayList<HospitalItem> hospitalList;
     private Context context;
-    private static final int PERMISSION_CODE = 100;
+    private static final int PERMISSION_CODE_CALL = 100;
+    private static final int PERMISSION_CODE_LOCATION = 101;
 
     public static class HospitalViewHolder extends RecyclerView.ViewHolder {
         public ImageView imageHospital;
@@ -64,26 +66,26 @@ public class HospitalAdapter extends RecyclerView.Adapter<HospitalAdapter.Hospit
         holder.btnLocation.setOnClickListener(v -> {
             double latitude = currentItem.getLatitude();
             double longitude = currentItem.getLongitude();
-            openLocationInMap(latitude, longitude);
-
+            requestLocationPermission(latitude, longitude);
         });
 
         holder.btnCall.setOnClickListener(v -> {
             String phoneNumber = currentItem.getPhoneNumber();
-            Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:" + phoneNumber));
-
-            if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
-                context.startActivity(callIntent);
-            } else {
-            }
-
+            requestCallPermission(phoneNumber);
         });
     }
 
     @Override
     public int getItemCount() {
         return hospitalList.size();
+    }
+
+    private void requestLocationPermission(double latitude, double longitude) {
+        if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions((Activity) context, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, PERMISSION_CODE_LOCATION);
+        } else {
+            openLocationInMap(latitude, longitude);
+        }
     }
 
     private void openLocationInMap(double latitude, double longitude) {
@@ -97,6 +99,18 @@ public class HospitalAdapter extends RecyclerView.Adapter<HospitalAdapter.Hospit
             Toast.makeText(context, "Google Maps app is not installed or not supported", Toast.LENGTH_SHORT).show();
         }
     }
+
+    private void requestCallPermission(String phoneNumber) {
+        if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions((Activity) context, new String[]{Manifest.permission.CALL_PHONE}, PERMISSION_CODE_CALL);
+        } else {
+            makeCall(phoneNumber);
+        }
+    }
+
+    private void makeCall(String phoneNumber) {
+        Intent callIntent = new Intent(Intent.ACTION_CALL);
+        callIntent.setData(Uri.parse("tel:" + phoneNumber));
+        context.startActivity(callIntent);
+    }
 }
-
-
