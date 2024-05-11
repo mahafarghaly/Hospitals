@@ -34,29 +34,22 @@ public class HomeActivity extends AppCompatActivity {
         if (!checkInternet()) {
             alertNoInternet();
         }
-
         binding.bottomNavView.setOnItemSelectedListener(item -> {
-
-            switch (item.getItemId()) {
-                case R.id.home_item:
-                    replaceFragment(new HomeFragment());
-                    break;
-
-                case R.id.profile_item:
-                    replaceFragment(new ProfileFragment());
-                    break;
-
-                case R.id.store_item:
-                    replaceFragment(new StoreFragment());
-                    break;
-
-                case R.id.settings_item:
-                    replaceFragment(new SettingsFragment());
-                    break;
+            if (item.getItemId() == R.id.home_item) {
+                replaceFragment(new HomeFragment());
+                return true;
+            } else if (item.getItemId() == R.id.profile_item) {
+                replaceFragment(new ProfileFragment());
+                return true;
+            } else if (item.getItemId() == R.id.store_item) {
+                replaceFragment(new StoreFragment());
+                return true;
+            } else if (item.getItemId() == R.id.settings_item) {
+                replaceFragment(new SettingsFragment());
+                return true;
             }
-            return true;
+            return false;
         });
-
 
     }
 

@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+
 }
 
 android {
@@ -42,5 +43,21 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation ("com.airbnb.android:lottie:3.7.0")
+    //firebase
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.firebase:firebase-firestore:24.4.3'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
+
+    // picasso square for image url
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    // dede For Circular Image View
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // Library Android-Image-Cropper
+//    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+//    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+//    implementation 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+
 
 }
