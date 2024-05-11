@@ -15,6 +15,7 @@ import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.AppCompatButton;
@@ -35,7 +36,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hospitals.R;
+import com.example.hospitals.adminpanel.AddProductActivity;
+import com.example.hospitals.adminpanel.DeleteProductActivity;
+import com.example.hospitals.adminpanel.UpdateProductActivity;
+import com.example.hospitals.model.UserModel;
 import com.google.android.material.switchmaterial.SwitchMaterial;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
@@ -72,7 +78,7 @@ public class ProfileFragment extends Fragment {
     private String userID;
     private ProgressDialog progressDialog;
 
-/*
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -104,9 +110,12 @@ public class ProfileFragment extends Fragment {
                     .edit()
                     .clear()
                     .apply();
-//            Intent intentLogOut = new Intent(getActivity(), LoginActivity.class);
-//            startActivity(intentLogOut);
+            /*
+            Intent intentLogOut = new Intent(getActivity(), LoginActivity.class);
+            startActivity(intentLogOut);
             getActivity().finish();
+            */
+
 
         });
 
@@ -201,10 +210,10 @@ public class ProfileFragment extends Fragment {
 
     private void OpenGalleryImagePicker() {
         // start picker to get image for cropping and then use the image in cropping activity
-        Intent intent = CropImage.activity()
+        /*Intent intent = CropImage.activity()
                 .setGuidelines(CropImageView.Guidelines.ON)
                 .getIntent(getActivity());
-        someActivityResultLauncher.launch(intent);
+        someActivityResultLauncher.launch(intent);*/
     }
 
     // You can do the assignment inside onAttach or onCreate, i.e, before the activity is displayed
@@ -215,9 +224,9 @@ public class ProfileFragment extends Fragment {
                 public void onActivityResult(ActivityResult result) {
                     if (result.getResultCode() == Activity.RESULT_OK) {
                         Intent data = result.getData();
-                        CropImage.ActivityResult d = CropImage.getActivityResult(data);
+                       /* CropImage.ActivityResult d = CropImage.getActivityResult(data);
 
-                        imageUri = d.getUri();
+                        imageUri = d.getUri();*/
 
                         // set image user in ImageView ;
                         imageViewPerson.setImageURI(imageUri);
@@ -444,6 +453,5 @@ public class ProfileFragment extends Fragment {
         alertDialog.show();
 
     }
-    */
 
 }
