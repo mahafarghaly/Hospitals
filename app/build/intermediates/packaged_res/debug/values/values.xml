@@ -30,6 +30,9 @@
     <string name="el_maadi_branch">El Maadi Branch</string>
     <string name="el_mohandseen_branch">El Mohandseen Branch</string>
     <string name="english">English</string>
+    <string name="facebook_app_id">1116896709526113</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
     <string name="ferrari_2023" translatable="false">ferrari 2023</string>
     <string name="gcm_defaultSenderId" translatable="false">320698811787</string>
     <string name="go">Go</string>

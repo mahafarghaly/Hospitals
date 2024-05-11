@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-84:12
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:2:1-111:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\minae\.gradle\caches\transforms-3\e999f2b1848fcef79e967a25b7e3b6e4\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\minae\.gradle\caches\transforms-3\2674b2fa1a1255cd0240c80dcfaf7264\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\minae\.gradle\caches\transforms-3\404fc8b6b378068115ccfe31855b4dca\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -160,9 +160,15 @@ ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:19:5-
 		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:21:9-64
 	android:name
 		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:20:9-54
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:23:5-25:51
+	android:value
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:25:9-48
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:24:9-54
 application
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:23:5-82:19
-INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:23:5-82:19
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:29:5-109:19
+INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:29:5-109:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\minae\.gradle\caches\transforms-3\2674b2fa1a1255cd0240c80dcfaf7264\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\minae\.gradle\caches\transforms-3\2674b2fa1a1255cd0240c80dcfaf7264\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\minae\.gradle\caches\transforms-3\404fc8b6b378068115ccfe31855b4dca\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -240,89 +246,135 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\minae\.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\minae\.gradle\caches\transforms-3\ef321e0d87e35ce24a9a82f6aeba1861\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:30:9-35
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:28:9-41
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:35:9-41
 	android:fullBackupContent
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:26:9-54
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:33:9-54
 	android:roundIcon
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:29:9-54
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:36:9-54
 	tools:targetApi
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:32:9-29
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:39:9-29
 	android:icon
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:27:9-43
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:34:9-43
 	android:allowBackup
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:31:9-47
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:9-47
 	android:dataExtractionRules
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:25:9-65
-activity#com.example.hospitals.adminpanel.DeleteProductActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:33:9-35:40
-	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:32:9-65
 	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:34:13-61
-activity#com.example.hospitals.adminpanel.AddProductActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:36:9-38:40
-	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:30:9-38
+meta-data#com.facebook.sdk.ClientToken
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:9-111
+	android:value
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:64-109
 	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:37:13-58
-activity#com.example.hospitals.ChatActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:39:9-41:40
-	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:41:13-37
-	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:40:13-41
-activity#com.example.hospitals.PrivacyPolicyActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:9-44:40
-	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:44:13-37
-	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:43:13-50
-activity#com.example.hospitals.HomeActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:45:9-47:40
-	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:46:13-41
-activity#com.example.hospitals.LoginActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:48:9-50:40
-	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:50:13-37
-	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:49:13-42
-activity#com.example.hospitals.SplashScreen
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:51:9-59:20
-	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:13-36
-	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:13-58:29
-action#android.intent.action.MAIN
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-69
-	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:57:17-77
-	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:57:27-74
-activity#com.example.hospitals.MapsActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:75:9-78:59
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:20-63
+activity#com.facebook.FacebookActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:44:9-47:48
+MERGED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:22:9-25:66
+MERGED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:22:9-25:66
 	android:label
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:78:13-56
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:47:13-45
+	android:configChanges
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:45:13-114
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:44:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:48:9-57:20
+MERGED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:27:9-41:20
+MERGED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:27:9-41:20
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:49:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:51:13-56:29
+action#android.intent.action.VIEW
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
+data
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
+	android:scheme
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
+activity#com.example.hospitals.adminpanel.DeleteProductActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:61:13-61
+activity#com.example.hospitals.adminpanel.AddProductActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:63:9-65:40
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:64:13-58
+activity#com.example.hospitals.ChatActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:66:9-68:40
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:67:13-41
+activity#com.example.hospitals.PrivacyPolicyActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:69:9-71:40
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:70:13-50
+activity#com.example.hospitals.HomeActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:72:9-74:40
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:73:13-41
+activity#com.example.hospitals.LoginActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:75:9-77:40
 	android:exported
 		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:77:13-37
 	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:76:13-41
-activity#com.example.hospitals.MainActivity
-ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:79:9-81:40
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:76:13-42
+activity#com.example.hospitals.SplashScreen
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:78:9-86:20
 	android:exported
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:81:13-37
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:80:13-36
 	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:80:13-41
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:79:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:81:13-85:29
+action#android.intent.action.MAIN
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:82:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:84:17-77
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:84:27-74
+activity#com.example.hospitals.MapsActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:102:9-105:59
+	android:label
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:105:13-56
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:103:13-41
+activity#com.example.hospitals.MainActivity
+ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:106:9-108:40
+	android:exported
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:108:13-37
+	android:name
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:107:13-41
 uses-sdk
 INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml
@@ -509,48 +561,14 @@ package#com.facebook.katana
 ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:18:9-55
 	android:name
 		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:18:18-52
-activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:22:9-25:66
-	android:configChanges
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:24:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:25:13-63
-	android:name
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:23:13-57
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:26:9-71
 	android:name
 		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:26:19-68
-activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:27:9-41:20
-	tools:node
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:30:13-31
-	android:exported
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:29:13-36
-	android:name
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:28:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:31:13-40:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.example.hospitals+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:31:13-40:29
-action#android.intent.action.VIEW
-ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:32:17-69
-	android:name
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:32:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:34:17-76
-	android:name
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:34:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:35:17-78
-	android:name
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:35:27-75
-data
-ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:37:17-39:50
-	android:host
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:38:21-56
-	android:scheme
-		ADDED from [com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:39:21-47
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\minae\.gradle\caches\transforms-3\aee59c22eaf437a376fe3513533821ee\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion

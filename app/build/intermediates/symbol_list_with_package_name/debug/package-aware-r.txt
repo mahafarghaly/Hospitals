@@ -4234,7 +4234,6 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw animation
-raw baby
 raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -4352,9 +4351,12 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string facebook_app_id
+string facebook_client_token
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string fb_login_protocol_scheme
 string ferrari_2023
 string gcm_defaultSenderId
 string go

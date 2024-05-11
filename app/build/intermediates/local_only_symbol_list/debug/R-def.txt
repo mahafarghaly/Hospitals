@@ -202,7 +202,6 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw animation
-raw baby
 string app_name
 string arabic
 string audi_q8_2023
@@ -226,6 +225,9 @@ string details
 string el_maadi_branch
 string el_mohandseen_branch
 string english
+string facebook_app_id
+string facebook_client_token
+string fb_login_protocol_scheme
 string ferrari_2023
 string gcm_defaultSenderId
 string go

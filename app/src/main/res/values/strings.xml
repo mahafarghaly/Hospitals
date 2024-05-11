@@ -1,4 +1,7 @@
 <resources>
+    <string name="facebook_app_id">1116896709526113</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
     <string name="app_name">Hospitals</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="cmc" translatable="false">GS</string>
