@@ -117,472 +117,471 @@
 62-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:36:9-54
 63        android:supportsRtl="true"
 63-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:37:9-35
-64        android:testOnly="true"
-65        android:theme="@style/Theme.Hospitals" >
-65-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:9-47
-66        <meta-data
-66-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:23:5-25:51
-67            android:name="com.facebook.sdk.ApplicationId"
-67-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:24:9-54
-68            android:value="@string/facebook_app_id" />
-68-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:25:9-48
-69        <meta-data
-69-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:9-111
-70            android:name="com.facebook.sdk.ClientToken"
-70-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:20-63
-71            android:value="@string/facebook_client_token" />
-71-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:64-109
-72
-73        <activity
-73-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:44:9-47:48
-74            android:name="com.facebook.FacebookActivity"
-74-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:44:19-63
-75            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-75-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:45:13-114
-76            android:label="@string/app_name"
-76-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:47:13-45
-77            android:theme="@style/com_facebook_activity_theme" />
-77-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:25:13-63
-78        <activity
-78-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:48:9-57:20
-79            android:name="com.facebook.CustomTabActivity"
-79-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:49:13-58
-80            android:exported="true" >
-80-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:50:13-36
-81            <intent-filter>
-81-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:51:13-56:29
-82                <action android:name="android.intent.action.VIEW" />
-82-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
-82-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
-83
-84                <category android:name="android.intent.category.DEFAULT" />
-84-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
-84-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
-85                <category android:name="android.intent.category.BROWSABLE" />
-85-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
-85-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
-86
-87                <data android:scheme="@string/fb_login_protocol_scheme" />
-87-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
-87-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
-88            </intent-filter>
-89            <intent-filter>
-89-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:31:13-40:29
-90                <action android:name="android.intent.action.VIEW" />
-90-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
-90-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
-91
-92                <category android:name="android.intent.category.DEFAULT" />
-92-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
-92-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
-93                <category android:name="android.intent.category.BROWSABLE" />
-93-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
-93-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
-94
-95                <data
-95-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
-96                    android:host="cct.com.example.hospitals"
-97                    android:scheme="fbconnect" />
-97-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
-98            </intent-filter>
-99        </activity>
-100        <activity
-100-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:60:9-62:40
-101            android:name="com.example.hospitals.adminpanel.DeleteProductActivity"
-101-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:61:13-61
-102            android:exported="false" />
-102-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:62:13-37
-103        <activity
-103-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:63:9-65:40
-104            android:name="com.example.hospitals.adminpanel.AddProductActivity"
-104-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:64:13-58
-105            android:exported="false" />
-105-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:65:13-37
-106        <activity
-106-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:66:9-68:40
-107            android:name="com.example.hospitals.ChatActivity"
-107-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:67:13-41
-108            android:exported="false" />
-108-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:68:13-37
-109        <activity
-109-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:69:9-71:40
-110            android:name="com.example.hospitals.PrivacyPolicyActivity"
-110-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:70:13-50
-111            android:exported="false" />
-111-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:71:13-37
-112        <activity
-112-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:72:9-74:40
-113            android:name="com.example.hospitals.HomeActivity"
-113-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:73:13-41
-114            android:exported="false" />
-114-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:74:13-37
-115        <activity
-115-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:75:9-77:40
-116            android:name="com.example.hospitals.LoginActivity"
-116-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:76:13-42
-117            android:exported="false" />
-117-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:77:13-37
-118        <activity
-118-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:78:9-86:20
-119            android:name="com.example.hospitals.SplashScreen"
-119-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:79:13-41
-120            android:exported="true" >
-120-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:80:13-36
-121            <intent-filter>
-121-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:81:13-85:29
-122                <action android:name="android.intent.action.MAIN" />
-122-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:82:17-69
-122-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:82:25-66
-123
-124                <category android:name="android.intent.category.LAUNCHER" />
-124-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:84:17-77
-124-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:84:27-74
-125            </intent-filter>
-126        </activity>
-127        <!--
-128             TODO: Before you run your application, you need a Google Maps API key.
-129
-130             To get one, follow the directions here:
-131
-132                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-133
-134             Once you have your API key (it starts with "AIza"), define a new property in your
-135             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-136             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-137        -->
-138        <meta-data
-138-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:19:5-21:67
-139            android:name="com.google.android.geo.API_KEY"
-139-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:20:9-54
-140            android:value="YOUR_API_KEY" />
-140-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:21:9-64
-141
-142        <activity
-142-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:102:9-105:59
-143            android:name="com.example.hospitals.MapsActivity"
-143-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:103:13-41
-144            android:exported="false"
-144-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:104:13-37
-145            android:label="@string/title_activity_maps" />
-145-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:105:13-56
-146        <activity
-146-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:106:9-108:40
-147            android:name="com.example.hospitals.MainActivity"
-147-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:107:13-41
-148            android:exported="false" />
-148-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:108:13-37
-149        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
-149-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:26:9-71
-149-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:26:19-68
-150        <uses-library
-150-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\minae\.gradle\caches\transforms-3\aee59c22eaf437a376fe3513533821ee\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
-151            android:name="org.apache.http.legacy"
-151-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\minae\.gradle\caches\transforms-3\aee59c22eaf437a376fe3513533821ee\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
-152            android:required="false" />
-152-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\minae\.gradle\caches\transforms-3\aee59c22eaf437a376fe3513533821ee\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
-153
-154        <activity
-154-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
-155            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-155-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
-156            android:excludeFromRecents="true"
-156-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
-157            android:exported="false"
-157-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
-158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-158-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
-159        <!--
-160            Service handling Google Sign-In user revocation. For apps that do not integrate with
-161            Google Sign-In, this service will never be started.
-162        -->
-163        <service
-163-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
-164            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-164-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
-165            android:exported="true"
-165-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
-166            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-166-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
-167            android:visibleToInstantApps="true" />
-167-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
-168
-169        <activity
-169-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
-170            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-170-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
-171            android:excludeFromRecents="true"
-171-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
-172            android:exported="true"
-172-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
-173            android:launchMode="singleTask"
-173-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
-174            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-174-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
-175            <intent-filter>
-175-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
-176                <action android:name="android.intent.action.VIEW" />
-176-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
-176-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
-177
-178                <category android:name="android.intent.category.DEFAULT" />
-178-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
-178-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
-179                <category android:name="android.intent.category.BROWSABLE" />
-179-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
-179-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
-180
-181                <data
-181-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
-182                    android:host="firebase.auth"
-183                    android:path="/"
-184                    android:scheme="genericidp" />
-184-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
-185            </intent-filter>
-186        </activity>
-187        <activity
-187-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
-188            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-188-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
-189            android:excludeFromRecents="true"
-189-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
-190            android:exported="true"
-190-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
-191            android:launchMode="singleTask"
-191-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
-192            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-192-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
-193            <intent-filter>
-193-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
-194                <action android:name="android.intent.action.VIEW" />
-194-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
-194-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
-195
-196                <category android:name="android.intent.category.DEFAULT" />
-196-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
-196-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
-197                <category android:name="android.intent.category.BROWSABLE" />
-197-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
-197-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
-198
-199                <data
-199-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
-200                    android:host="firebase.auth"
-201                    android:path="/"
-202                    android:scheme="recaptcha" />
-202-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
-203            </intent-filter>
-204        </activity>
-205
-206        <service
-206-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
-207            android:name="com.google.firebase.components.ComponentDiscoveryService"
-207-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:67:13-84
-208            android:directBootAware="true"
-208-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
-209            android:exported="false" >
-209-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
-210            <meta-data
-210-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
-211                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-211-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
-212                android:value="com.google.firebase.components.ComponentRegistrar" />
-212-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
-213            <meta-data
-213-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:17:13-19:85
-214                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-214-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:18:17-122
-215                android:value="com.google.firebase.components.ComponentRegistrar" />
-215-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:19:17-82
-216            <meta-data
-216-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:20:13-22:85
-217                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-217-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:21:17-111
-218                android:value="com.google.firebase.components.ComponentRegistrar" />
-218-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:22:17-82
-219            <meta-data
-219-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
-220                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
-220-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
-221                android:value="com.google.firebase.components.ComponentRegistrar" />
-221-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
-222            <meta-data
-222-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
-223                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-223-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
-224                android:value="com.google.firebase.components.ComponentRegistrar" />
-224-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
-225            <meta-data
-225-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
-226                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
-226-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
-227                android:value="com.google.firebase.components.ComponentRegistrar" />
-227-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
-228            <meta-data
-228-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
-229                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
-229-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
-230                android:value="com.google.firebase.components.ComponentRegistrar" />
-230-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
-231            <meta-data
-231-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\37725f8127066cfb7cea5f357bf72f7f\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
-232                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-232-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\37725f8127066cfb7cea5f357bf72f7f\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
-233                android:value="com.google.firebase.components.ComponentRegistrar" />
-233-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\37725f8127066cfb7cea5f357bf72f7f\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
-234            <meta-data
-234-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
-235                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-235-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
-236                android:value="com.google.firebase.components.ComponentRegistrar" />
-236-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
-237        </service>
-238
-239        <activity
-239-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-240            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-240-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-241            android:exported="false"
-241-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-242            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-242-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-243
-244        <provider
-244-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
-245            android:name="com.google.firebase.provider.FirebaseInitProvider"
-245-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
-246            android:authorities="com.example.hospitals.firebaseinitprovider"
-246-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
-247            android:directBootAware="true"
-247-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
-248            android:exported="false"
-248-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
-249            android:initOrder="100" />
-249-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
-250        <provider
-250-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-251            android:name="androidx.startup.InitializationProvider"
-251-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-252            android:authorities="com.example.hospitals.androidx-startup"
-252-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-253            android:exported="false" >
-253-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-254            <meta-data
-254-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-255                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-255-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-256                android:value="androidx.startup" />
-256-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-257            <meta-data
-257-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\minae\.gradle\caches\transforms-3\01a9744c84baf1c164be341b0de13fd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-258                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-258-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\minae\.gradle\caches\transforms-3\01a9744c84baf1c164be341b0de13fd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-259                android:value="androidx.startup" />
-259-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\minae\.gradle\caches\transforms-3\01a9744c84baf1c164be341b0de13fd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-260            <meta-data
-260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-261                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-261-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-262                android:value="androidx.startup" />
-262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-263        </provider>
-264        <!--
-265         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-266         with the application context. This config is merged in with the host app's manifest,
-267         but there can only be one provider with the same authority activated at any given
-268         point; so if the end user has two or more different apps that use Facebook SDK, only the
-269         first one will be able to use the provider. To work around this problem, we use the
-270         following placeholder in the authority to identify each host application as if it was
-271         a completely different provider.
-272        -->
-273        <provider
-273-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:29:9-32:40
-274            android:name="com.facebook.internal.FacebookInitProvider"
-274-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:30:13-70
-275            android:authorities="com.example.hospitals.FacebookInitProvider"
-275-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:31:13-72
-276            android:exported="false" />
-276-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:32:13-37
-277
-278        <receiver
-278-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:34:9-40:20
-279            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-279-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:35:13-86
-280            android:exported="false" >
-280-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:36:13-37
-281            <intent-filter>
-281-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:37:13-39:29
-282                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-282-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:38:17-95
-282-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:38:25-92
-283            </intent-filter>
-284        </receiver>
-285        <receiver
-285-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:41:9-47:20
-286            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
-286-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:42:13-118
-287            android:exported="false" >
-287-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:43:13-37
-288            <intent-filter>
-288-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:44:13-46:29
-289                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
-289-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:45:17-103
-289-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:45:25-100
-290            </intent-filter>
-291        </receiver>
-292
-293        <meta-data
-293-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\minae\.gradle\caches\transforms-3\e10501c03c6ea55b79cb08194a27a596\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-294            android:name="com.google.android.gms.version"
-294-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\minae\.gradle\caches\transforms-3\e10501c03c6ea55b79cb08194a27a596\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
-295            android:value="@integer/google_play_services_version" />
-295-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\minae\.gradle\caches\transforms-3\e10501c03c6ea55b79cb08194a27a596\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
-296
-297        <provider
-297-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
-298            android:name="com.squareup.picasso.PicassoProvider"
-298-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
-299            android:authorities="com.example.hospitals.com.squareup.picasso"
-299-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
-300            android:exported="false" />
-300-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
-301
-302        <receiver
-302-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-303            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-304            android:directBootAware="false"
-304-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-305            android:enabled="true"
-305-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-306            android:exported="true"
-306-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-307            android:permission="android.permission.DUMP" >
-307-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-308            <intent-filter>
-308-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-309                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-309-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-309-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-310            </intent-filter>
-311            <intent-filter>
-311-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-312                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-312-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-312-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-313            </intent-filter>
-314            <intent-filter>
-314-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-315                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-315-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-315-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-316            </intent-filter>
-317            <intent-filter>
-317-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-318                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-318-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-318-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-319            </intent-filter>
-320        </receiver>
-321    </application>
-322
-323</manifest>
+64        android:theme="@style/Theme.Hospitals" >
+64-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:9-47
+65        <meta-data
+65-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:23:5-25:51
+66            android:name="com.facebook.sdk.ApplicationId"
+66-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:24:9-54
+67            android:value="@string/facebook_app_id" />
+67-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:25:9-48
+68        <meta-data
+68-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:9-111
+69            android:name="com.facebook.sdk.ClientToken"
+69-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:20-63
+70            android:value="@string/facebook_client_token" />
+70-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:42:64-109
+71
+72        <activity
+72-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:44:9-47:48
+73            android:name="com.facebook.FacebookActivity"
+73-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:44:19-63
+74            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+74-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:45:13-114
+75            android:label="@string/app_name"
+75-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:47:13-45
+76            android:theme="@style/com_facebook_activity_theme" />
+76-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:25:13-63
+77        <activity
+77-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:48:9-57:20
+78            android:name="com.facebook.CustomTabActivity"
+78-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:49:13-58
+79            android:exported="true" >
+79-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:50:13-36
+80            <intent-filter>
+80-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:51:13-56:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
+81-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
+83-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
+84-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
+85
+86                <data android:scheme="@string/fb_login_protocol_scheme" />
+86-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
+86-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
+87            </intent-filter>
+88            <intent-filter>
+88-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:31:13-40:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
+89-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
+91-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
+92-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
+93
+94                <data
+94-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
+95                    android:host="cct.com.example.hospitals"
+96                    android:scheme="fbconnect" />
+96-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:60:9-62:40
+100            android:name="com.example.hospitals.adminpanel.DeleteProductActivity"
+100-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:61:13-61
+101            android:exported="false" />
+101-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:62:13-37
+102        <activity
+102-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:63:9-65:40
+103            android:name="com.example.hospitals.adminpanel.AddProductActivity"
+103-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:64:13-58
+104            android:exported="false" />
+104-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:65:13-37
+105        <activity
+105-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:66:9-68:40
+106            android:name="com.example.hospitals.ChatActivity"
+106-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:67:13-41
+107            android:exported="false" />
+107-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:68:13-37
+108        <activity
+108-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:69:9-71:40
+109            android:name="com.example.hospitals.PrivacyPolicyActivity"
+109-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:70:13-50
+110            android:exported="false" />
+110-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:71:13-37
+111        <activity
+111-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:72:9-74:40
+112            android:name="com.example.hospitals.HomeActivity"
+112-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:73:13-41
+113            android:exported="false" />
+113-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:74:13-37
+114        <activity
+114-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:75:9-77:40
+115            android:name="com.example.hospitals.LoginActivity"
+115-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:76:13-42
+116            android:exported="false" />
+116-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:77:13-37
+117        <activity
+117-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:78:9-86:20
+118            android:name="com.example.hospitals.SplashScreen"
+118-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:79:13-41
+119            android:exported="true" >
+119-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:80:13-36
+120            <intent-filter>
+120-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:81:13-85:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:82:17-69
+121-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:82:25-66
+122
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:84:17-77
+123-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:84:27-74
+124            </intent-filter>
+125        </activity>
+126        <!--
+127             TODO: Before you run your application, you need a Google Maps API key.
+128
+129             To get one, follow the directions here:
+130
+131                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+132
+133             Once you have your API key (it starts with "AIza"), define a new property in your
+134             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+135             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+136        -->
+137        <meta-data
+137-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:19:5-21:67
+138            android:name="com.google.android.geo.API_KEY"
+138-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:20:9-54
+139            android:value="YOUR_API_KEY" />
+139-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:21:9-64
+140
+141        <activity
+141-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:102:9-105:59
+142            android:name="com.example.hospitals.MapsActivity"
+142-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:103:13-41
+143            android:exported="false"
+143-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:104:13-37
+144            android:label="@string/title_activity_maps" />
+144-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:105:13-56
+145        <activity
+145-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:106:9-108:40
+146            android:name="com.example.hospitals.MainActivity"
+146-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:107:13-41
+147            android:exported="false" />
+147-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:108:13-37
+148        <activity android:name="com.facebook.CustomTabMainActivity" /> <!-- Needs to be explicitly declared on P+ -->
+148-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:26:9-71
+148-->[com.facebook.android:facebook-common:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\19e1ae7b1e88c7ecd92d5b30111aa8e5\transformed\facebook-common-17.0.0\AndroidManifest.xml:26:19-68
+149        <uses-library
+149-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\minae\.gradle\caches\transforms-3\aee59c22eaf437a376fe3513533821ee\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+150            android:name="org.apache.http.legacy"
+150-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\minae\.gradle\caches\transforms-3\aee59c22eaf437a376fe3513533821ee\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+151            android:required="false" />
+151-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\minae\.gradle\caches\transforms-3\aee59c22eaf437a376fe3513533821ee\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+152
+153        <activity
+153-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+154            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+154-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+155            android:excludeFromRecents="true"
+155-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+158        <!--
+159            Service handling Google Sign-In user revocation. For apps that do not integrate with
+160            Google Sign-In, this service will never be started.
+161        -->
+162        <service
+162-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+163            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+163-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+164            android:exported="true"
+164-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+165            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+165-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+166            android:visibleToInstantApps="true" />
+166-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\minae\.gradle\caches\transforms-3\11387b81196c5f683d7409385d3383f7\transformed\play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+167
+168        <activity
+168-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+169            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+169-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+170            android:excludeFromRecents="true"
+170-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+171            android:exported="true"
+171-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+172            android:launchMode="singleTask"
+172-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+173-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+174            <intent-filter>
+174-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+175                <action android:name="android.intent.action.VIEW" />
+175-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
+175-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
+176
+177                <category android:name="android.intent.category.DEFAULT" />
+177-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
+177-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
+178                <category android:name="android.intent.category.BROWSABLE" />
+178-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
+178-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
+179
+180                <data
+180-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
+181                    android:host="firebase.auth"
+182                    android:path="/"
+183                    android:scheme="genericidp" />
+183-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
+184            </intent-filter>
+185        </activity>
+186        <activity
+186-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+187            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+187-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+188            android:excludeFromRecents="true"
+188-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+189            android:exported="true"
+189-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+190            android:launchMode="singleTask"
+190-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+191            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+191-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+192            <intent-filter>
+192-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+193                <action android:name="android.intent.action.VIEW" />
+193-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:17-69
+193-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:52:25-66
+194
+195                <category android:name="android.intent.category.DEFAULT" />
+195-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:17-76
+195-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:53:27-73
+196                <category android:name="android.intent.category.BROWSABLE" />
+196-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:17-78
+196-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:54:27-75
+197
+198                <data
+198-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:17-75
+199                    android:host="firebase.auth"
+200                    android:path="/"
+201                    android:scheme="recaptcha" />
+201-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:55:23-72
+202            </intent-filter>
+203        </activity>
+204
+205        <service
+205-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+206            android:name="com.google.firebase.components.ComponentDiscoveryService"
+206-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:67:13-84
+207            android:directBootAware="true"
+207-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+208            android:exported="false" >
+208-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
+209            <meta-data
+209-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+210                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+210-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\minae\.gradle\caches\transforms-3\494ad319e90bb22312096ecc0fb4695a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+212            <meta-data
+212-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:17:13-19:85
+213                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+213-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:18:17-122
+214                android:value="com.google.firebase.components.ComponentRegistrar" />
+214-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:19:17-82
+215            <meta-data
+215-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:20:13-22:85
+216                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+216-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:21:17-111
+217                android:value="com.google.firebase.components.ComponentRegistrar" />
+217-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\minae\.gradle\caches\transforms-3\cd0b11eee6410e3cfea7006af0d766ce\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:22:17-82
+218            <meta-data
+218-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+219                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+219-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+220                android:value="com.google.firebase.components.ComponentRegistrar" />
+220-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+221            <meta-data
+221-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+222                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+222-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\minae\.gradle\caches\transforms-3\ac59e2e0d3f096cbd2bb17630f328eec\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+224            <meta-data
+224-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
+225                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+225-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
+228                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+228-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\minae\.gradle\caches\transforms-3\4ecd4b2bca302b2a13e19f0c2bf0ab4b\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\37725f8127066cfb7cea5f357bf72f7f\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+231                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+231-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\37725f8127066cfb7cea5f357bf72f7f\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\37725f8127066cfb7cea5f357bf72f7f\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+234                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+234-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+236        </service>
+237
+238        <activity
+238-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+239            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+239-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+240            android:exported="false"
+240-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+241            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+241-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\minae\.gradle\caches\transforms-3\eb3f63f427083b368778b5ac39a954f2\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+242
+243        <provider
+243-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+244            android:name="com.google.firebase.provider.FirebaseInitProvider"
+244-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+245            android:authorities="com.example.hospitals.firebaseinitprovider"
+245-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+246            android:directBootAware="true"
+246-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+247            android:exported="false"
+247-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+248            android:initOrder="100" />
+248-->[com.google.firebase:firebase-common:20.4.2] C:\Users\minae\.gradle\caches\transforms-3\7d66028052a83b2c131bf1b09d54465e\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+249        <provider
+249-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+250            android:name="androidx.startup.InitializationProvider"
+250-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+251            android:authorities="com.example.hospitals.androidx-startup"
+251-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+252            android:exported="false" >
+252-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+253            <meta-data
+253-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+254-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+255                android:value="androidx.startup" />
+255-->[androidx.emoji2:emoji2:1.2.0] C:\Users\minae\.gradle\caches\transforms-3\e33fa09154c30b3a2aabaed84c97ac74\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+256            <meta-data
+256-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\minae\.gradle\caches\transforms-3\01a9744c84baf1c164be341b0de13fd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+257                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+257-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\minae\.gradle\caches\transforms-3\01a9744c84baf1c164be341b0de13fd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+258                android:value="androidx.startup" />
+258-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\minae\.gradle\caches\transforms-3\01a9744c84baf1c164be341b0de13fd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+259            <meta-data
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+260                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+261                android:value="androidx.startup" />
+261-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+262        </provider>
+263        <!--
+264         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+265         with the application context. This config is merged in with the host app's manifest,
+266         but there can only be one provider with the same authority activated at any given
+267         point; so if the end user has two or more different apps that use Facebook SDK, only the
+268         first one will be able to use the provider. To work around this problem, we use the
+269         following placeholder in the authority to identify each host application as if it was
+270         a completely different provider.
+271        -->
+272        <provider
+272-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:29:9-32:40
+273            android:name="com.facebook.internal.FacebookInitProvider"
+273-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:30:13-70
+274            android:authorities="com.example.hospitals.FacebookInitProvider"
+274-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:31:13-72
+275            android:exported="false" />
+275-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:32:13-37
+276
+277        <receiver
+277-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:34:9-40:20
+278            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+278-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:35:13-86
+279            android:exported="false" >
+279-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:36:13-37
+280            <intent-filter>
+280-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:37:13-39:29
+281                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+281-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:38:17-95
+281-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:38:25-92
+282            </intent-filter>
+283        </receiver>
+284        <receiver
+284-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:41:9-47:20
+285            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+285-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:42:13-118
+286            android:exported="false" >
+286-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:43:13-37
+287            <intent-filter>
+287-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:44:13-46:29
+288                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+288-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:45:17-103
+288-->[com.facebook.android:facebook-core:17.0.0] C:\Users\minae\.gradle\caches\transforms-3\31c79c946d0914604d91325ec2c985d5\transformed\facebook-core-17.0.0\AndroidManifest.xml:45:25-100
+289            </intent-filter>
+290        </receiver>
+291
+292        <meta-data
+292-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\minae\.gradle\caches\transforms-3\e10501c03c6ea55b79cb08194a27a596\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+293            android:name="com.google.android.gms.version"
+293-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\minae\.gradle\caches\transforms-3\e10501c03c6ea55b79cb08194a27a596\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+294            android:value="@integer/google_play_services_version" />
+294-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\minae\.gradle\caches\transforms-3\e10501c03c6ea55b79cb08194a27a596\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+295
+296        <provider
+296-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+297            android:name="com.squareup.picasso.PicassoProvider"
+297-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+298            android:authorities="com.example.hospitals.com.squareup.picasso"
+298-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+299            android:exported="false" />
+299-->[com.squareup.picasso:picasso:2.8] C:\Users\minae\.gradle\caches\transforms-3\8540fa00b654d2c9b2566014e51a6582\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+300
+301        <receiver
+301-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+302            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+302-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+303            android:directBootAware="false"
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+304            android:enabled="true"
+304-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+305            android:exported="true"
+305-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+306            android:permission="android.permission.DUMP" >
+306-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+307            <intent-filter>
+307-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+308                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+308-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+308-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+309            </intent-filter>
+310            <intent-filter>
+310-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+311                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+311-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+311-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+312            </intent-filter>
+313            <intent-filter>
+313-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+314                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+314-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+314-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+315            </intent-filter>
+316            <intent-filter>
+316-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+317                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+317-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+317-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\minae\.gradle\caches\transforms-3\df2f481d89de2cae6c49920fbebdde78\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+318            </intent-filter>
+319        </receiver>
+320    </application>
+321
+322</manifest>
