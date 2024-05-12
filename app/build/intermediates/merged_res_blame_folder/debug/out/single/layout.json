@@ -4,16 +4,16 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\alert_no_internet.xml",
-        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\alert_no_internet.xml"
+        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_add_product.xml",
+        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_add_product.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_login.xml",
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_add_product.xml",
-        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_add_product.xml"
+        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\alert_no_internet.xml",
+        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\alert_no_internet.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_home.xml",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_login_screen.xml"
     },
     {
-        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\item_hospital.xml",
-        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\item_hospital.xml"
+        "merged": "com.example.hospitals.app-mergeDebugResources-43:/layout/fragment_settings.xml",
+        "source": "com.example.hospitals.app-main-46:/layout/fragment_settings.xml"
     },
     {
-        "merged": "com.example.hospitals.app-mergeDebugResources-43:/layout/activity_sign_in.xml",
-        "source": "com.example.hospitals.app-main-46:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\item_hospital.xml",
+        "source": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\item_hospital.xml"
     },
     {
         "merged": "C:\\Users\\minae\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_sign_up.xml",

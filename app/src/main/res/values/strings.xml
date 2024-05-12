@@ -4,7 +4,7 @@
     <string name="facebook_client_token">56789</string>
     <string name="app_name">Hospitals</string>
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="cmc" translatable="false">GS</string>
+    <string name="cmc" translatable="false">Hospitals</string>
     <string name="log">LogIn</string>
     <string name="sign">SignUp</string>
     <string name="new_user">New User ? SignUp</string>

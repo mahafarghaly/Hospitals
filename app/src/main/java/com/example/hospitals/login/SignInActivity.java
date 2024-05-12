@@ -119,11 +119,12 @@ public class SignInActivity extends AppCompatActivity implements LoginView {
         SharedPreferences sharedPreferences = SignInActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString("name", userEmail);
+        editor.putBoolean("isLogin", true);
         editor.apply();
         Log.i("testEmail", "showLoginSuccess: " + userEmail);
         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(SignInActivity.this, HomeActivity.class));
-        finish();
+//        finish();
     }
 
     @Override
