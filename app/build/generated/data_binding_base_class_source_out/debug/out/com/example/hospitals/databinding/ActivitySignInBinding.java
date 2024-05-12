@@ -35,17 +35,17 @@ public final class ActivitySignInBinding implements ViewBinding {
   public final EditText loginPassword;
 
   @NonNull
-  public final TextView signupRedirectText;
+  public final TextView signUpRedirectText;
 
   private ActivitySignInBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnGoogle,
       @NonNull Button loginButton, @NonNull EditText loginEmail, @NonNull EditText loginPassword,
-      @NonNull TextView signupRedirectText) {
+      @NonNull TextView signUpRedirectText) {
     this.rootView = rootView;
     this.btnGoogle = btnGoogle;
     this.loginButton = loginButton;
     this.loginEmail = loginEmail;
     this.loginPassword = loginPassword;
-    this.signupRedirectText = signupRedirectText;
+    this.signUpRedirectText = signUpRedirectText;
   }
 
   @Override
@@ -99,14 +99,14 @@ public final class ActivitySignInBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signupRedirectText;
-      TextView signupRedirectText = ViewBindings.findChildViewById(rootView, id);
-      if (signupRedirectText == null) {
+      id = R.id.signUpRedirectText;
+      TextView signUpRedirectText = ViewBindings.findChildViewById(rootView, id);
+      if (signUpRedirectText == null) {
         break missingId;
       }
 
       return new ActivitySignInBinding((ConstraintLayout) rootView, btnGoogle, loginButton,
-          loginEmail, loginPassword, signupRedirectText);
+          loginEmail, loginPassword, signUpRedirectText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

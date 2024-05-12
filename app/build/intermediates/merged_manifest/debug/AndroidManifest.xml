@@ -64,7 +64,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Hospitals" >
         <activity
-            android:name="com.example.hospitals.sgnup.SignUpActivity"
+            android:name="com.example.hospitals.signup.SignUpActivity"
             android:exported="false" />
         <activity
             android:name="com.example.hospitals.login.SignInActivity"

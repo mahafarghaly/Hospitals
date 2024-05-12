@@ -122,8 +122,8 @@
 65-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:35:9-47
 66        <activity
 66-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:37:9-39:40
-67            android:name="com.example.hospitals.sgnup.SignUpActivity"
-67-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:13-49
+67            android:name="com.example.hospitals.signup.SignUpActivity"
+67-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:13-50
 68            android:exported="false" />
 68-->D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:39:13-37
 69        <activity

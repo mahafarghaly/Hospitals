@@ -1,6 +1,8 @@
 package com.example.hospitals;
 
-import static com.example.hospitals.LoginActivity.SHARED_PREF;
+//import static com.example.hospitals.LoginActivity.SHARED_PREF;
+
+import static com.example.hospitals.login.SignInActivity.SHARED_PREF;
 
 import androidx.appcompat.app.AppCompatActivity;
 

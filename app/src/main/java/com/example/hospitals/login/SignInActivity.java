@@ -12,18 +12,14 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hospitals.HomeActivity;
-import com.example.hospitals.LoginActivity;
 import com.example.hospitals.R;
 import com.example.hospitals.login.presenter.LoginPresenterImpl;
-import com.example.hospitals.sgnup.SignUpActivity;
-import com.facebook.AccessToken;
-import com.facebook.CallbackManager;
+import com.example.hospitals.signup.SignUpActivity;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -33,7 +29,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
@@ -76,7 +71,7 @@ public class SignInActivity extends AppCompatActivity implements LoginView {
         loginEmail = findViewById(R.id.login_email);
         loginPassword = findViewById(R.id.login_password);
         loginButton = findViewById(R.id.login_button);
-        signupRedirectText = findViewById(R.id.signupRedirectText);
+        signupRedirectText = findViewById(R.id.signUpRedirectText);
         signGoogleBtn = findViewById(R.id.btn_google);
 
         loginButton.setOnClickListener(v -> {
@@ -85,19 +80,14 @@ public class SignInActivity extends AppCompatActivity implements LoginView {
             presenter.login(email, password);
         });
 
-        signupRedirectText.setOnClickListener(v -> startActivity(new Intent(SignInActivity.this, SignUpActivity.class)));
+        signupRedirectText.setOnClickListener(v ->
+                startActivity(new Intent(SignInActivity.this, SignUpActivity.class)));
 
         // Google SignIn initialization
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gsc = GoogleSignIn.getClient(this, gso);
         acct = GoogleSignIn.getLastSignedInAccount(this);
-//        if (acct != null) {
-//            navigateToSecondActivity();
-//        }
-//        signGoogleBtn.setOnClickListener(v -> presenter.handleGoogleSignIn());
-//        if (currentUser != null||acct!=null) {
-//            navigateToSecondActivity();
-//        }
+
         signGoogleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,7 +115,12 @@ public class SignInActivity extends AppCompatActivity implements LoginView {
 
     @Override
     public void showLoginSuccess() {
-
+        String userEmail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        SharedPreferences sharedPreferences = SignInActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("name", userEmail);
+        editor.apply();
+        Log.i("testEmail", "showLoginSuccess: " + userEmail);
         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(SignInActivity.this, HomeActivity.class));
         finish();
@@ -136,13 +131,8 @@ public class SignInActivity extends AppCompatActivity implements LoginView {
         Toast.makeText(this, "Login Failed: " + message, Toast.LENGTH_SHORT).show();
     }
 
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//        presenter.onActivityResult(requestCode, resultCode, data);
-//    }
     void navigateToSecondActivity() {
-        finish();
+//        finish();
         Intent intent = new Intent(SignInActivity.this, HomeActivity.class);
         startActivity(intent);
     }
@@ -186,39 +176,6 @@ public class SignInActivity extends AppCompatActivity implements LoginView {
                 }
             }
         }
-//        else {
-//            if (resultCode == RESULT_OK) {
-//                AccessToken accessToken = AccessToken.getCurrentAccessToken();
-//                if (accessToken != null && !accessToken.isExpired()) {
-//                    AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
-//                    mAuth.signInWithCredential(credential)
-//                            .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-//                                @Override
-//                                public void onComplete(@NonNull Task<AuthResult> task) {
-//                                    if (task.isSuccessful()) {
-//                                        FirebaseUser user = mAuth.getCurrentUser();
-//                                        String userEmail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
-//                                        SharedPreferences sharedPreferences = SignInActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
-//                                        SharedPreferences.Editor editor = sharedPreferences.edit();
-//                                        editor.putString("name", userEmail);
-//                                        editor.putBoolean("isLogin", true);
-//                                        editor.apply();
-//                                        startActivity(new Intent(SignInActivity.this, HomeActivity.class));
-//                                        finish();
-//                                        Toast.makeText(SignInActivity.this, "Facebook sign in successful.",
-//                                                Toast.LENGTH_SHORT).show();
-//                                    } else {
-//                                        Toast.makeText(SignInActivity.this, "Authentication failed.",
-//                                                Toast.LENGTH_SHORT).show();
-//                                    }
-//                                }
-//                            });
-//                }
-//            }
 
         }
     }
-
-//        callbackManager.onActivityResult(requestCode, resultCode, data);
-//        super.onActivityResult(requestCode, resultCode, data);}
-//}

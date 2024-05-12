@@ -265,12 +265,12 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\minae\.gr
 		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:29:9-65
 	android:name
 		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:27:9-38
-activity#com.example.hospitals.sgnup.SignUpActivity
+activity#com.example.hospitals.signup.SignUpActivity
 ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:38:13-50
 activity#com.example.hospitals.login.SignInActivity
 ADDED from D:\zzzzz\NewHospital\Hospitals\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported

@@ -3681,6 +3681,7 @@ id linear_rate_app
 id linear_send_chat
 id listMode
 id list_item
+id loginRedirectText
 id login_button
 id login_email
 id login_password
@@ -3861,7 +3862,11 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signupRedirectText
+id signUpRedirectText
+id signup_Confpassword
+id signup_button
+id signup_email
+id signup_password
 id sin
 id skipCollapsed
 id skipped
@@ -3978,7 +3983,6 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
-id view
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -4116,7 +4120,6 @@ layout activity_add_product
 layout activity_chat
 layout activity_delete_product
 layout activity_home
-layout activity_login
 layout activity_login_screen
 layout activity_main
 layout activity_maps

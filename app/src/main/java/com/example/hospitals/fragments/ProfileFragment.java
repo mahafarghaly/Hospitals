@@ -2,7 +2,9 @@ package com.example.hospitals.fragments;
 
 import static android.content.Context.MODE_PRIVATE;
 
-import static com.example.hospitals.LoginActivity.SHARED_PREF;
+//import static com.example.hospitals.LoginActivity.SHARED_PREF;
+
+import static com.example.hospitals.login.SignInActivity.SHARED_PREF;
 
 import android.Manifest;
 import android.app.Activity;
@@ -19,7 +21,6 @@ import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.AppCompatButton;
@@ -39,14 +40,13 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.hospitals.LoginActivity;
 import com.example.hospitals.R;
 import com.example.hospitals.adminpanel.AddProductActivity;
 import com.example.hospitals.adminpanel.DeleteProductActivity;
 import com.example.hospitals.adminpanel.UpdateProductActivity;
+import com.example.hospitals.login.SignInActivity;
 import com.example.hospitals.model.UserModel;
 import com.google.android.material.switchmaterial.SwitchMaterial;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
@@ -136,19 +136,19 @@ public class ProfileFragment extends Fragment {
                         firebaseAuth.signOut();
 
                         // Clear the 'login' shared preferences
-                        getActivity().getSharedPreferences("login", Context.MODE_PRIVATE)
+                        getActivity().getSharedPreferences("login", MODE_PRIVATE)
                                 .edit()
                                 .clear()
                                 .apply();
 
                         // Clear 'name' shared preference
-                        SharedPreferences sharedPreferences = getActivity().getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
+                        SharedPreferences sharedPreferences = getActivity().getSharedPreferences(SHARED_PREF, MODE_PRIVATE);
                         SharedPreferences.Editor editor = sharedPreferences.edit();
                         editor.putString("name", "");
                         editor.apply();
 
                         // Start LoginActivity and finish current activity
-                        Intent intentLogOut = new Intent(getActivity(), LoginActivity.class);
+                        Intent intentLogOut = new Intent(getActivity(), SignInActivity.class);
                         intentLogOut.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intentLogOut);
                         getActivity().finish();
