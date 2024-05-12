@@ -4,7 +4,7 @@
             "outputFile": "com.example.hospitals.app-mergeDebugResources-42:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\2674b2fa1a1255cd0240c80dcfaf7264\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\2674b2fa1a1255cd0240c80dcfaf7264\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

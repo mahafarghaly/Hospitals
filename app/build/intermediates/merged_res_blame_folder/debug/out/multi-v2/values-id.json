@@ -4,7 +4,7 @@
             "outputFile": "com.example.hospitals.app-mergeDebugResources-42:/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\19e1ae7b1e88c7ecd92d5b30111aa8e5\\transformed\\facebook-common-17.0.0\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\19e1ae7b1e88c7ecd92d5b30111aa8e5\\transformed\\facebook-common-17.0.0\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,11 +1,11 @@
-#Sat May 11 05:46:36 EEST 2024
-base.0=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.3=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.4=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.5=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.6=D\:\\zzzzz\\NewHospital\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Sat May 11 22:10:16 PDT 2024
+base.0=F\:\\Hospitals\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=F\:\\Hospitals\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=F\:\\Hospitals\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.3=F\:\\Hospitals\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.4=F\:\\Hospitals\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.5=F\:\\Hospitals\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.6=F\:\\Hospitals\\Hospitals\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex
