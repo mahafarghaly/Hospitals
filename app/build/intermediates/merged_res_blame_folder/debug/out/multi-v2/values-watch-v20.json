@@ -4,7 +4,7 @@
             "outputFile": "com.example.hospitals.app-mergeDebugResources-42:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\11387b81196c5f683d7409385d3383f7\\transformed\\play-services-auth-21.0.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\11387b81196c5f683d7409385d3383f7\\transformed\\play-services-auth-21.0.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\de3118e4d5abbb47c7f1b9baac76df97\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\de3118e4d5abbb47c7f1b9baac76df97\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

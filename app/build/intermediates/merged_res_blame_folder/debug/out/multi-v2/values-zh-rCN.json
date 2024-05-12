@@ -4,24 +4,7 @@
             "outputFile": "com.example.hospitals.app-mergeDebugResources-42:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\ef321e0d87e35ce24a9a82f6aeba1861\\transformed\\core-1.13.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,248,342,436,529,623,719",
-                        "endColumns": "91,100,93,93,92,93,95,100",
-                        "endOffsets": "142,243,337,431,524,618,714,815"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,161",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3197,3289,3390,3484,3578,3671,3765,13202",
-                        "endColumns": "91,100,93,93,92,93,95,100",
-                        "endOffsets": "3284,3385,3479,3573,3666,3760,3856,13298"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\eb3f63f427083b368778b5ac39a954f2\\transformed\\play-services-base-18.1.0\\res\\values-zh-rCN\\values.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\eb3f63f427083b368778b5ac39a954f2\\transformed\\play-services-base-18.1.0\\res\\values-zh-rCN\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,41 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\e10501c03c6ea55b79cb08194a27a596\\transformed\\play-services-basement-18.3.0\\res\\values-zh-rCN\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "199",
-                        "endColumns": "94",
-                        "endOffsets": "293"
-                    },
-                    "to": {
-                        "startLines": "79",
-                        "startColumns": "4",
-                        "startOffsets": "7173",
-                        "endColumns": "98",
-                        "endOffsets": "7267"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\f58cc657b0c920e3c10cf423b2201758\\transformed\\browser-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,138,230,331",
-                        "endColumns": "82,91,100,92",
-                        "endOffsets": "133,225,326,419"
-                    },
-                    "to": {
-                        "startLines": "89,93,94,95",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "8125,8398,8490,8591",
-                        "endColumns": "82,91,100,92",
-                        "endOffsets": "8203,8485,8586,8679"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\de3118e4d5abbb47c7f1b9baac76df97\\transformed\\appcompat-1.6.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\de3118e4d5abbb47c7f1b9baac76df97\\transformed\\appcompat-1.6.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -89,24 +38,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\90c3a21836107ea9d8dab2375c62b64f\\transformed\\facebook-login-17.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\ef321e0d87e35ce24a9a82f6aeba1861\\transformed\\core-1.13.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,185,285,394,503,582,664,736,821,906,1012,1114,1200,1286,1377,1486,1564,1643,1761,1854,1949,2055,2149",
-                        "endColumns": "129,99,108,108,78,81,71,84,84,105,101,85,85,90,108,77,78,117,92,94,105,93,85",
-                        "endOffsets": "180,280,389,498,577,659,731,816,901,1007,1109,1195,1281,1372,1481,1559,1638,1756,1849,1944,2050,2144,2230"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,248,342,436,529,623,719",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "142,243,337,431,524,618,714,815"
                     },
                     "to": {
-                        "startLines": "48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4131,4261,4361,4470,4579,4658,4740,4812,4897,4982,5088,5190,5276,5362,5453,5562,5640,5719,5837,5930,6025,6131,6225",
-                        "endColumns": "129,99,108,108,78,81,71,84,84,105,101,85,85,90,108,77,78,117,92,94,105,93,85",
-                        "endOffsets": "4256,4356,4465,4574,4653,4735,4807,4892,4977,5083,5185,5271,5357,5448,5557,5635,5714,5832,5925,6020,6126,6220,6306"
+                        "startLines": "38,39,40,41,42,43,44,161",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3197,3289,3390,3484,3578,3671,3765,13202",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "3284,3385,3479,3573,3666,3760,3856,13298"
                     }
                 },
                 {
-                    "source": "C:\\Users\\dell\\.gradle\\caches\\transforms-3\\2674b2fa1a1255cd0240c80dcfaf7264\\transformed\\material-1.12.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\e10501c03c6ea55b79cb08194a27a596\\transformed\\play-services-basement-18.3.0\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "94",
+                        "endOffsets": "293"
+                    },
+                    "to": {
+                        "startLines": "79",
+                        "startColumns": "4",
+                        "startOffsets": "7173",
+                        "endColumns": "98",
+                        "endOffsets": "7267"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\2674b2fa1a1255cd0240c80dcfaf7264\\transformed\\material-1.12.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -122,6 +88,40 @@
                         "endLines": "5,33,34,35,36,37,45,46,47,90,91,92,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,158,159,160",
                         "endColumns": "12,63,61,69,69,76,90,105,72,50,61,76,58,58,77,60,56,55,58,57,53,84,55,57,53,64,91,73,71,78,73,75,121,61,61,98,78,73,49,50,65,63,68,70,70,60,70,66,59,85,78,66,82,84,73,64,75,47,72,63,75,77,61,63,62,64,79,75,77,75,53,54,68,74,72,69",
                         "endOffsets": "292,2913,2975,3045,3115,3192,3947,4053,4126,8254,8316,8393,8738,8797,8875,8936,8993,9049,9108,9166,9220,9305,9361,9419,9473,9538,9630,9704,9776,9855,9929,10005,10127,10189,10251,10350,10429,10503,10553,10604,10670,10734,10803,10874,10945,11006,11077,11144,11204,11290,11369,11436,11519,11604,11678,11743,11819,11867,11940,12004,12080,12158,12220,12284,12347,12412,12492,12568,12646,12722,12776,12831,12900,13054,13127,13197"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\f58cc657b0c920e3c10cf423b2201758\\transformed\\browser-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,138,230,331",
+                        "endColumns": "82,91,100,92",
+                        "endOffsets": "133,225,326,419"
+                    },
+                    "to": {
+                        "startLines": "89,93,94,95",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "8125,8398,8490,8591",
+                        "endColumns": "82,91,100,92",
+                        "endOffsets": "8203,8485,8586,8679"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\minae\\.gradle\\caches\\transforms-3\\90c3a21836107ea9d8dab2375c62b64f\\transformed\\facebook-login-17.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,185,285,394,503,582,664,736,821,906,1012,1114,1200,1286,1377,1486,1564,1643,1761,1854,1949,2055,2149",
+                        "endColumns": "129,99,108,108,78,81,71,84,84,105,101,85,85,90,108,77,78,117,92,94,105,93,85",
+                        "endOffsets": "180,280,389,498,577,659,731,816,901,1007,1109,1195,1281,1372,1481,1559,1638,1756,1849,1944,2050,2144,2230"
+                    },
+                    "to": {
+                        "startLines": "48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4131,4261,4361,4470,4579,4658,4740,4812,4897,4982,5088,5190,5276,5362,5453,5562,5640,5719,5837,5930,6025,6131,6225",
+                        "endColumns": "129,99,108,108,78,81,71,84,84,105,101,85,85,90,108,77,78,117,92,94,105,93,85",
+                        "endOffsets": "4256,4356,4465,4574,4653,4735,4807,4892,4977,5083,5185,5271,5357,5448,5557,5635,5714,5832,5925,6020,6126,6220,6306"
                     }
                 }
             ]
