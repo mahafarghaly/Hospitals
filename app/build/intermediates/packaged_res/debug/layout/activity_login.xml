@@ -1,60 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     android:background="@drawable/hosp"
-    tools:context=".LoginActivity">
+    >
 
-
-
-    <View
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#A1FFFFFF"
-        />
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
 
-    <Button
-        android:id="@+id/btn_fb"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:text="Facebook"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_edittex"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/login_email"
+                android:layout_width="301dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittex"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="8dp"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="303dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittex"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="301dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Login"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+            <ImageButton
+                android:id="@+id/btn_google"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="50dp"
+                android:backgroundTint="#0000ffff"
+                app:srcCompat="@drawable/google" />
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="-35dp"
+                android:baselineAligned="false"
+                android:text="You Can Use"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
 
 
-    <Button
-        android:id="@+id/btn_gmail"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
-        android:text="Gmail"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_fb"
-        app:layout_constraintVertical_bias="0.096" />
+            <TextView
+                android:id="@+id/signupRedirectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:text="dont have an account? Sign Up"
+                android:textColor="#050301"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/Login"
-        android:layout_width="271dp"
-        android:layout_height="109dp"
-        android:gravity="center"
-        android:text="Login"
-        android:textSize="68sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn_fb"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

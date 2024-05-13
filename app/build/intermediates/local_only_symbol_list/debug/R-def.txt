@@ -10,7 +10,9 @@ color yellow
 drawable btn_bg
 drawable car
 drawable chat_bg
+drawable custom_edittex
 drawable four
+drawable google
 drawable hosp
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_admin_panel_settings_24
@@ -56,7 +58,6 @@ drawable transperant_bg
 drawable two
 drawable ui
 drawable uit
-id Login
 id bottom_app_bar
 id bottom_nav_view
 id btnCall
@@ -69,6 +70,7 @@ id btn_delete_admin_panel
 id btn_delete_product
 id btn_fb
 id btn_gmail
+id btn_google
 id btn_open_location
 id btn_purchase_alert
 id btn_retry
@@ -139,6 +141,9 @@ id linear_progress_admin_panel
 id linear_progress_admin_panel_update
 id linear_rate_app
 id linear_send_chat
+id login_button
+id login_email
+id login_password
 id lottie
 id main
 id map
@@ -151,6 +156,7 @@ id radio_madent_naser
 id radio_mohandseen
 id recyclerView
 id settings_item
+id signupRedirectText
 id store_item
 id switch_mode
 id textDescription
@@ -175,14 +181,18 @@ id tv_name_product_update
 id tv_phone_view
 id tv_price_product
 id tv_price_product_update
+id view
 layout activity_add_product
 layout activity_chat
 layout activity_delete_product
 layout activity_home
 layout activity_login
+layout activity_login_screen
 layout activity_main
 layout activity_maps
 layout activity_privacy_policy
+layout activity_sign_in
+layout activity_sign_up
 layout activity_splash_screen
 layout activity_update_product
 layout alert_admin

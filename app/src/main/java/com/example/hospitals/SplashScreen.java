@@ -12,6 +12,7 @@ import android.os.Handler;
 import android.util.Log;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.hospitals.login.SignInActivity;
 
 
 public class SplashScreen extends AppCompatActivity {
@@ -39,7 +40,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 if(userName.equals("")){
-                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), SignInActivity.class);
                     startActivity(intent);
                     finish();
                 }else{

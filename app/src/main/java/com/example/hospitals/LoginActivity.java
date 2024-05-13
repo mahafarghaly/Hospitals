@@ -1,34 +1,26 @@
 package com.example.hospitals;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
+import com.facebook.login.LoginBehavior;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -40,7 +32,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 import java.util.Arrays;
@@ -56,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
 
     Button btnFb;
 
-    Button btnGoogle;
+    ImageButton btnGoogle;
 
     GoogleSignInClient googleSignInClient;
 
@@ -69,8 +63,8 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        btnFb = findViewById(R.id.btn_fb);
-        btnGoogle = findViewById(R.id.btn_gmail);
+       // btnFb = findViewById(R.id.btn_fb);
+        btnGoogle = findViewById(R.id.btn_google);
         callbackManager = CallbackManager.Factory.create();
 
         LoginManager.getInstance().registerCallback(callbackManager,
@@ -78,9 +72,6 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
                         // App code
-//                        AccessToken accessToken = loginResult.getAccessToken();
-                        startActivity(new Intent(LoginActivity.this, HomeActivity.class));
-                        finish();
                     }
 
                     @Override
@@ -94,15 +85,13 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
 
-//        LoginButton loginButton = findViewById(R.id.login_button);
-//        loginButton.setPermissions(Arrays.asList("public_profile", "email"));
-
-        btnFb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile"));
-            }
-        });
+//        btnFb.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                LoginManager.getInstance().setLoginBehavior(LoginBehavior.WEB_ONLY);
+//                LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile","email"));
+//            }
+//        });
 
     }
 
@@ -130,46 +119,64 @@ public class LoginActivity extends AppCompatActivity {
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         callbackManager.onActivityResult(requestCode, resultCode, data);
-
         if (requestCode == 100) {
-            Task<GoogleSignInAccount> signInAccountTask = GoogleSignIn.getSignedInAccountFromIntent(data);
-            if (signInAccountTask.isSuccessful()) {
+            Task<GoogleSignInAccount> signInAccountTask = GoogleSignIn.getSignedInAccountFromIntent(data);        if (signInAccountTask.isSuccessful()) {
                 String s = "Google sign in successful";
                 Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
                 try {
                     GoogleSignInAccount googleSignInAccount = signInAccountTask.getResult(ApiException.class);
                     if (googleSignInAccount != null) {
                         AuthCredential authCredential = GoogleAuthProvider.getCredential(googleSignInAccount.getIdToken(), null);
-                        mAuth.signInWithCredential(authCredential).addOnCompleteListener(this,
-                                new OnCompleteListener<AuthResult>() {
-                                    @Override
-                                    public void onComplete(@NonNull Task<AuthResult> task) {
-                                        if (task.isSuccessful()) {
-                                            String userEmail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
-                                            SharedPreferences sharedPreferences = LoginActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
-                                            SharedPreferences.Editor editor = sharedPreferences.edit();
-//                                            userName=extractUserName(userEmail);
-                                            editor.putString("name", userEmail);
-                                            editor.putBoolean("isLogin",true);
-                                            editor.apply();
-                                            Log.i(TAG, "gmail: "+userName);
-                                            startActivity(new Intent(LoginActivity.this, HomeActivity.class));
-                                            Toast.makeText(LoginActivity.this, s, Toast.LENGTH_SHORT).show();
-                                        } else {
-                                            Toast.makeText(LoginActivity.this, "Login fail, please try again", Toast.LENGTH_SHORT).show();
-                                        }
-                                    }
-                                });
+                        mAuth.signInWithCredential(authCredential).addOnCompleteListener(this,                            new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                                    String userEmail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+                                    SharedPreferences sharedPreferences = LoginActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);                                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                                    editor.putString("name", userEmail);                                        editor.putBoolean("isLogin",true);
+                                    editor.apply();
+                                    Log.i(TAG, "gmail: "+userName);
+                                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));                                        Toast.makeText(LoginActivity.this, s, Toast.LENGTH_SHORT).show();
+                                } else {
+                                    Toast.makeText(LoginActivity.this, "Login fail, please try again", Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
                     }
                 } catch (ApiException e) {
                     e.printStackTrace();
                 }
             }
+        } else {
+            if (resultCode == RESULT_OK) {
+            AccessToken accessToken = AccessToken.getCurrentAccessToken();
+            if (accessToken != null && !accessToken.isExpired()) {
+                AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
+                mAuth.signInWithCredential(credential)
+                        .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                            @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            String userEmail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+                            SharedPreferences sharedPreferences = LoginActivity.this.getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);                                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putString("name", userEmail);                                        editor.putBoolean("isLogin",true);
+                            editor.apply();
+                            startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+                            finish();
+                            Toast.makeText(LoginActivity.this, "Facebook sign in successful.",
+                                    Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(LoginActivity.this, "Authentication failed.",
+                                Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+            }
         }
-
-        callbackManager.onActivityResult(requestCode, resultCode, data);
-        super.onActivityResult(requestCode, resultCode, data);
 
     }
 
+    callbackManager.onActivityResult(requestCode, resultCode, data);
+    super.onActivityResult(requestCode, resultCode, data);}
 }

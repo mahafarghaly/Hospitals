@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.hospitals.R;
@@ -18,32 +20,37 @@ import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final TextView Login;
+  public final ImageButton btnGoogle;
 
   @NonNull
-  public final Button btnFb;
+  public final Button loginButton;
 
   @NonNull
-  public final Button btnGmail;
+  public final EditText loginEmail;
 
   @NonNull
-  public final ConstraintLayout main;
+  public final EditText loginPassword;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Login,
-      @NonNull Button btnFb, @NonNull Button btnGmail, @NonNull ConstraintLayout main) {
+  @NonNull
+  public final TextView signupRedirectText;
+
+  private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull ImageButton btnGoogle,
+      @NonNull Button loginButton, @NonNull EditText loginEmail, @NonNull EditText loginPassword,
+      @NonNull TextView signupRedirectText) {
     this.rootView = rootView;
-    this.Login = Login;
-    this.btnFb = btnFb;
-    this.btnGmail = btnGmail;
-    this.main = main;
+    this.btnGoogle = btnGoogle;
+    this.loginButton = loginButton;
+    this.loginEmail = loginEmail;
+    this.loginPassword = loginPassword;
+    this.signupRedirectText = signupRedirectText;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -68,27 +75,38 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.Login;
-      TextView Login = ViewBindings.findChildViewById(rootView, id);
-      if (Login == null) {
+      id = R.id.btn_google;
+      ImageButton btnGoogle = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoogle == null) {
         break missingId;
       }
 
-      id = R.id.btn_fb;
-      Button btnFb = ViewBindings.findChildViewById(rootView, id);
-      if (btnFb == null) {
+      id = R.id.login_button;
+      Button loginButton = ViewBindings.findChildViewById(rootView, id);
+      if (loginButton == null) {
         break missingId;
       }
 
-      id = R.id.btn_gmail;
-      Button btnGmail = ViewBindings.findChildViewById(rootView, id);
-      if (btnGmail == null) {
+      id = R.id.login_email;
+      EditText loginEmail = ViewBindings.findChildViewById(rootView, id);
+      if (loginEmail == null) {
         break missingId;
       }
 
-      ConstraintLayout main = (ConstraintLayout) rootView;
+      id = R.id.login_password;
+      EditText loginPassword = ViewBindings.findChildViewById(rootView, id);
+      if (loginPassword == null) {
+        break missingId;
+      }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, Login, btnFb, btnGmail, main);
+      id = R.id.signupRedirectText;
+      TextView signupRedirectText = ViewBindings.findChildViewById(rootView, id);
+      if (signupRedirectText == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((LinearLayout) rootView, btnGoogle, loginButton, loginEmail,
+          loginPassword, signupRedirectText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
