@@ -4,12 +4,12 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_chat.xml",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_chat.xml"
-    },
-    {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_splash_screen.xml",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-main-46:\\layout\\activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.2\\com.example.hospitals.app-mergeDebugResources-43:\\layout\\fragment_store.xml",

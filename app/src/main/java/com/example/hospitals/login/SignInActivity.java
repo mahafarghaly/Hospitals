@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.example.hospitals.HomeActivity;
 import com.example.hospitals.R;
 import com.example.hospitals.login.presenter.LoginPresenterImpl;
-import com.example.hospitals.sgnup.SignUpActivity;
+import com.example.hospitals.signup.SignUpActivity;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

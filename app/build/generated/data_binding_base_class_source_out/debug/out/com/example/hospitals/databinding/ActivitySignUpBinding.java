@@ -4,20 +4,58 @@ package com.example.hospitals.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.hospitals.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivitySignUpBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivitySignUpBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final ImageView btnGoogle;
+
+  @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
+  public final TextView loginRedirectText;
+
+  @NonNull
+  public final Button signupButton;
+
+  @NonNull
+  public final EditText signupConfpassword;
+
+  @NonNull
+  public final EditText signupEmail;
+
+  @NonNull
+  public final EditText signupPassword;
+
+  private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnGoogle,
+      @NonNull LinearLayout linearLayout, @NonNull TextView loginRedirectText,
+      @NonNull Button signupButton, @NonNull EditText signupConfpassword,
+      @NonNull EditText signupEmail, @NonNull EditText signupPassword) {
     this.rootView = rootView;
+    this.btnGoogle = btnGoogle;
+    this.linearLayout = linearLayout;
+    this.loginRedirectText = loginRedirectText;
+    this.signupButton = signupButton;
+    this.signupConfpassword = signupConfpassword;
+    this.signupEmail = signupEmail;
+    this.signupPassword = signupPassword;
   }
 
   @Override
@@ -43,10 +81,56 @@ public final class ActivitySignUpBinding implements ViewBinding {
 
   @NonNull
   public static ActivitySignUpBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_google;
+      ImageView btnGoogle = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoogle == null) {
+        break missingId;
+      }
 
-    return new ActivitySignUpBinding((ConstraintLayout) rootView);
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.loginRedirectText;
+      TextView loginRedirectText = ViewBindings.findChildViewById(rootView, id);
+      if (loginRedirectText == null) {
+        break missingId;
+      }
+
+      id = R.id.signup_button;
+      Button signupButton = ViewBindings.findChildViewById(rootView, id);
+      if (signupButton == null) {
+        break missingId;
+      }
+
+      id = R.id.signup_Confpassword;
+      EditText signupConfpassword = ViewBindings.findChildViewById(rootView, id);
+      if (signupConfpassword == null) {
+        break missingId;
+      }
+
+      id = R.id.signup_email;
+      EditText signupEmail = ViewBindings.findChildViewById(rootView, id);
+      if (signupEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.signup_password;
+      EditText signupPassword = ViewBindings.findChildViewById(rootView, id);
+      if (signupPassword == null) {
+        break missingId;
+      }
+
+      return new ActivitySignUpBinding((ConstraintLayout) rootView, btnGoogle, linearLayout,
+          loginRedirectText, signupButton, signupConfpassword, signupEmail, signupPassword);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

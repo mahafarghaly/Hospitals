@@ -3681,6 +3681,7 @@ id linear_rate_app
 id linear_send_chat
 id listMode
 id list_item
+id loginRedirectText
 id login_button
 id login_email
 id login_password
@@ -3862,6 +3863,10 @@ id showCustom
 id showHome
 id showTitle
 id signupRedirectText
+id signup_Confpassword
+id signup_button
+id signup_email
+id signup_password
 id sin
 id skipCollapsed
 id skipped

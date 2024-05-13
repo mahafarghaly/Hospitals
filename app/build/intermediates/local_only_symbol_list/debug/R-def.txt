@@ -141,6 +141,7 @@ id linear_progress_admin_panel
 id linear_progress_admin_panel_update
 id linear_rate_app
 id linear_send_chat
+id loginRedirectText
 id login_button
 id login_email
 id login_password
@@ -157,6 +158,10 @@ id radio_mohandseen
 id recyclerView
 id settings_item
 id signupRedirectText
+id signup_Confpassword
+id signup_button
+id signup_email
+id signup_password
 id store_item
 id switch_mode
 id textDescription
